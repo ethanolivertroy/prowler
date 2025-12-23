@@ -27,7 +27,7 @@
     "@ai-sdk/react": "2.0.59",
     "@heroui/react": "2.8.4",
     "@hookform/resolvers": "5.2.2",
-    "@langchain/core": "0.3.77",
+    "@langchain/core": "0.3.80",
     "@langchain/langgraph": "0.4.9",
     "@langchain/langgraph-supervisor": "0.0.20",
     "@langchain/openai": "0.5.18",
@@ -56,12 +56,12 @@
     "framer-motion": "11.18.2",
     "intl-messageformat": "10.7.16",
     "jose": "5.10.0",
-    "js-yaml": "4.1.0",
+    "js-yaml": "4.1.1",
     "jwt-decode": "4.0.0",
     "lucide-react": "0.543.0",
     "marked": "15.0.12",
-    "next": "15.5.3",
-    "next-auth": "5.0.0-beta.29",
+    "next": "15.5.9",
+    "next-auth": "5.0.0-beta.30",
     "next-themes": "0.2.1",
     "radix-ui": "1.4.2",
     "react": "19.2.0",
@@ -136,7 +136,7 @@
     }
   },
   "resolutions": {
-    "@langchain/core": "0.3.77"
+    "@langchain/core": "0.3.80"
   },
   "version": "0.0.1"
 }
