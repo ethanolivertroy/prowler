@@ -1,108 +1,250 @@
 {
   "Framework": "FedRAMP-20x-KSI-Low",
-  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Low Impact Level v25.05C",
-  "Version": "25.05C",
+  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Low Impact Level FRMR-0.9.42",
+  "Version": "FRMR-0.9.42",
   "Provider": "GCP",
-  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Low Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x Phase One pilot requirements for Low impact systems.",
+  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Low Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Low impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
   "Requirements": [
     {
-      "Id": "ksi-cmt",
-      "Name": "KSI-CMT: Change Management",
-      "Description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly",
+      "Id": "ksi-afr-ads",
+      "Name": "KSI-AFR-ADS: Authorization Data Sharing",
+      "Description": "Determine how authorization data will be shared with all necessary parties in alignment with the FedRAMP Authorization Data Sharing (ADS) process and persistently address all related requirements and recommendations.",
       "Attributes": [
         {
-          "ItemId": "ksi-cmt",
-          "Section": "Change Management",
-          "Service": "gcp"
+          "ItemId": "ksi-afr-ads",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-ADS: Authorization Data Sharing",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-ccm",
+      "Name": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
+      "Description": "Maintain a plan and process for providing Ongoing Authorization Reports and Quarterly Reviews for all necessary parties in alignment with the FedRAMP Collaborative Continuous Monitoring (CCM) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-ccm",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-fsi",
+      "Name": "KSI-AFR-FSI: FedRAMP Security Inbox",
+      "Description": "Operate a secure inbox to receive critical communication from FedRAMP and other government entities in alignment with FedRAMP Security Inbox (FSI) requirements and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-fsi",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-FSI: FedRAMP Security Inbox",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-icp",
+      "Name": "KSI-AFR-ICP: Incident Communications Procedures",
+      "Description": "Integrate FedRAMP's Incident Communications Procedures (ICP) into incident response procedures and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-icp",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-ICP: Incident Communications Procedures",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-mas",
+      "Name": "KSI-AFR-MAS: Minimum Assessment Scope",
+      "Description": "Apply the FedRAMP Minimum Assessment Scope (MAS) to identify and document the scope of the cloud service offering to be assessed for FedRAMP authorization and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-mas",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-MAS: Minimum Assessment Scope",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-pva",
+      "Name": "KSI-AFR-PVA: Persistent Validation and Assessment",
+      "Description": "Persistently validate, assess, and report on the effectiveness and status of security decisions and policies that are implemented within the cloud service offering in alignment with the FedRAMP 20x Persistent Validation and Assessment (PVA) process, and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-pva",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-PVA: Persistent Validation and Assessment",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-scg",
+      "Name": "KSI-AFR-SCG: Secure Configuration Guide",
+      "Description": "Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Secure Configuration Guide (SCG) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-scg",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-SCG: Secure Configuration Guide",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-scn",
+      "Name": "KSI-AFR-SCN: Significant Change Notifications",
+      "Description": "Determine how significant changes will be tracked and how all necessary parties will be notified in alignment with the FedRAMP Significant Change Notifications (SCN) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-scn",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-SCN: Significant Change Notifications",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-ucm",
+      "Name": "KSI-AFR-UCM: Using Cryptographic Modules",
+      "Description": "Ensure that cryptographic modules used to protect potentially sensitive federal customer data are selected and used in alignment with the FedRAMP 20x Using Cryptographic Modules (UCM) guidance and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-ucm",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-UCM: Using Cryptographic Modules",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-vdr",
+      "Name": "KSI-AFR-VDR: Vulnerability Detection and Response",
+      "Description": "Document the vulnerability detection and vulnerability response methodology used within the cloud service offering in alignment with the FedRAMP Vulnerability Detection and Response (VDR) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-vdr",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-VDR: Vulnerability Detection and Response",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-det",
+      "Name": "KSI-CED-DET: Reviewing Development and Engineering Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to development and engineering staff that covers best practices for delivering secure software.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-det",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-DET: Reviewing Development and Engineering Training",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rgt",
+      "Name": "KSI-CED-RGT: Reviewing General Training",
+      "Description": "Persistently review the effectiveness of training given to all employees on policies, procedures, and security-related topics.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rgt",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RGT: Reviewing General Training",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rrt",
+      "Name": "KSI-CED-RRT: Reviewing Response and Recovery Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to staff involved with incident response or disaster recovery.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rrt",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RRT: Reviewing Response and Recovery Training",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rst",
+      "Name": "KSI-CED-RST: Reviewing Role-Specific Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to employees in high risk roles, including at least roles with privileged access.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rst",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RST: Reviewing Role-Specific Training",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cmt-lmc",
+      "Name": "KSI-CMT-LMC: Logging Changes",
+      "Description": "Log and monitor modifications to the cloud service offering.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-lmc",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-LMC: Logging Changes",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
         "iam_audit_logs_enabled",
-        "iam_cloud_asset_inventory_enabled",
-        "logging_log_metric_filter_and_alert_for_audit_configuration_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_bucket_permission_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_custom_role_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_project_ownership_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_sql_instance_configuration_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_vpc_firewall_rule_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_vpc_network_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_vpc_network_route_changes_enabled",
-        "compute_instance_serial_ports_in_use",
-        "compute_project_os_login_enabled"
-      ]
-    },
-    {
-      "Id": "ksi-cna",
-      "Name": "KSI-CNA: Cloud Native Architecture",
-      "Description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system",
-      "Attributes": [
-        {
-          "ItemId": "ksi-cna",
-          "Section": "Cloud Native Architecture",
-          "Service": "gcp"
-        }
-      ],
-      "Checks": [
-        "cloudsql_instance_private_ip_assignment",
-        "cloudsql_instance_public_access",
-        "cloudsql_instance_public_ip",
-        "cloudstorage_bucket_uniform_bucket_level_access",
-        "compute_firewall_rdp_access_from_the_internet_allowed",
-        "compute_firewall_ssh_access_from_the_internet_allowed",
-        "compute_instance_block_project_wide_ssh_keys_disabled",
-        "compute_instance_confidential_computing_enabled",
-        "compute_instance_ip_forwarding_is_enabled",
-        "compute_instance_public_ip",
-        "compute_instance_shielded_vm_enabled",
-        "compute_loadbalancer_logging_enabled",
-        "compute_network_default_in_use",
-        "compute_network_dns_logging_enabled",
-        "compute_network_not_legacy",
-        "compute_subnet_flow_logs_enabled",
-        "gke_cluster_no_default_service_account"
-      ]
-    },
-    {
-      "Id": "ksi-iam",
-      "Name": "KSI-IAM: Identity and Access Management",
-      "Description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles",
-      "Attributes": [
-        {
-          "ItemId": "ksi-iam",
-          "Section": "Identity and Access Management",
-          "Service": "gcp"
-        }
-      ],
-      "Checks": [
-        "apikeys_api_restrictions_configured",
-        "apikeys_key_exists",
-        "apikeys_key_rotated_in_90_days",
-        "compute_instance_default_service_account_in_use",
-        "compute_instance_default_service_account_in_use_with_full_api_access",
-        "iam_no_service_roles_at_project_level",
-        "iam_role_kms_enforce_separation_of_duties",
-        "iam_role_sa_enforce_separation_of_duties",
-        "iam_sa_no_administrative_privileges",
-        "iam_sa_no_user_managed_keys",
-        "iam_sa_user_managed_key_rotate_90_days",
-        "iam_sa_user_managed_key_unused",
-        "iam_service_account_unused"
-      ]
-    },
-    {
-      "Id": "ksi-inr",
-      "Name": "KSI-INR: Incident Response",
-      "Description": "A secure cloud service offering will respond to incidents according to FedRAMP requirements and cloud service provider policies",
-      "Attributes": [
-        {
-          "ItemId": "ksi-inr",
-          "Section": "Incident Response",
-          "Service": "gcp"
-        }
-      ],
-      "Checks": [
-        "iam_organization_essential_contacts_configured",
-        "iam_account_access_approval_enabled",
         "logging_log_metric_filter_and_alert_for_audit_configuration_changes_enabled",
         "logging_log_metric_filter_and_alert_for_bucket_permission_changes_enabled",
         "logging_log_metric_filter_and_alert_for_custom_role_changes_enabled",
@@ -114,14 +256,482 @@
       ]
     },
     {
-      "Id": "ksi-mla",
-      "Name": "KSI-MLA: Monitoring, Logging, and Auditing",
-      "Description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes",
+      "Id": "ksi-cmt-rmv",
+      "Name": "KSI-CMT-RMV: Redeploying vs Modifying",
+      "Description": "Execute changes to machine-based information resources through redeployment of version controlled immutable resources rather than direct modification wherever reasonable.",
       "Attributes": [
         {
-          "ItemId": "ksi-mla",
-          "Section": "Monitoring, Logging, and Auditing",
-          "Service": "gcp"
+          "ItemId": "ksi-cmt-rmv",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-RMV: Redeploying vs Modifying",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "compute_instance_confidential_computing_enabled",
+        "compute_instance_shielded_vm_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-cmt-rvp",
+      "Name": "KSI-CMT-RVP: Reviewing Change Procedures",
+      "Description": "Persistently review the effectiveness of documented change management procedures.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-rvp",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-RVP: Reviewing Change Procedures",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "iam_cloud_asset_inventory_enabled",
+        "compute_instance_serial_ports_in_use",
+        "compute_project_os_login_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-cmt-vtd",
+      "Name": "KSI-CMT-VTD: Validating Throughout Deployment",
+      "Description": "Automate persistent testing and validation of changes throughout deployment.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-vtd",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-VTD: Validating Throughout Deployment",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-dfp",
+      "Name": "KSI-CNA-DFP: Defining Functionality and Privileges",
+      "Description": "Strictly define the functionality and privileges for infrastructure and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-dfp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-DFP: Defining Functionality and Privileges",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "cloudstorage_bucket_uniform_bucket_level_access",
+        "compute_network_not_legacy"
+      ]
+    },
+    {
+      "Id": "ksi-cna-eis",
+      "Name": "KSI-CNA-EIS: Enforcing Intended State",
+      "Description": "Optional: Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-eis",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-EIS: Enforcing Intended State",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-ibp",
+      "Name": "KSI-CNA-IBP: Implementing Best Practices",
+      "Description": "Persistently ensure cloud-native machine-based information resources are implemented based on the host provider's best practices and documented guidance.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-ibp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-IBP: Implementing Best Practices",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "gke_cluster_no_default_service_account"
+      ]
+    },
+    {
+      "Id": "ksi-cna-mat",
+      "Name": "KSI-CNA-MAT: Minimizing Attack Surface",
+      "Description": "Persistently ensure machine-based information resources have a minimal attack surface and that lateral movement is minimized if compromised.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-mat",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-MAT: Minimizing Attack Surface",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "cloudsql_instance_public_access",
+        "cloudsql_instance_public_ip",
+        "cloudsql_instance_private_ip_assignment",
+        "compute_instance_block_project_wide_ssh_keys_disabled",
+        "compute_instance_ip_forwarding_is_enabled",
+        "compute_instance_public_ip"
+      ]
+    },
+    {
+      "Id": "ksi-cna-ofa",
+      "Name": "KSI-CNA-OFA: Optimizing for Availability",
+      "Description": "Appropriately optimize machine-based information resources for high availability and rapid recovery.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-ofa",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-OFA: Optimizing for Availability",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-rnt",
+      "Name": "KSI-CNA-RNT: Restricting Network Traffic",
+      "Description": "Persistently ensure all machine-based information resources are configured to limit inbound and outbound network traffic.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-rnt",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-RNT: Restricting Network Traffic",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "compute_firewall_rdp_access_from_the_internet_allowed",
+        "compute_firewall_ssh_access_from_the_internet_allowed",
+        "compute_network_default_in_use"
+      ]
+    },
+    {
+      "Id": "ksi-cna-rvp",
+      "Name": "KSI-CNA-RVP: Reviewing Protections",
+      "Description": "Persistently review the effectiveness of protection against denial of service attacks and other unwanted activity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-rvp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-RVP: Reviewing Protections",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-uln",
+      "Name": "KSI-CNA-ULN: Using Logical Networking",
+      "Description": "Use logical networking and related capabilities to enforce traffic flow controls.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-uln",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-ULN: Using Logical Networking",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "compute_loadbalancer_logging_enabled",
+        "compute_network_dns_logging_enabled",
+        "compute_subnet_flow_logs_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-iam-aam",
+      "Name": "KSI-IAM-AAM: Automating Account Management",
+      "Description": "Securely manage the lifecycle and privileges of all accounts, roles, and groups, using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-aam",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-AAM: Automating Account Management",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "iam_service_account_unused"
+      ]
+    },
+    {
+      "Id": "ksi-iam-apm",
+      "Name": "KSI-IAM-APM: Adopting Passwordless Methods",
+      "Description": "Use secure passwordless methods for user authentication and authorization when feasible, otherwise enforce strong passwords with MFA for authentication.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-apm",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-APM: Adopting Passwordless Methods",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-iam-elp",
+      "Name": "KSI-IAM-ELP: Ensuring Least Privilege",
+      "Description": "Persistently ensure that identity and access management employs measures to ensure each user or device can only access the resources they need.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-elp",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-ELP: Ensuring Least Privilege",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "compute_instance_default_service_account_in_use",
+        "compute_instance_default_service_account_in_use_with_full_api_access"
+      ]
+    },
+    {
+      "Id": "ksi-iam-jit",
+      "Name": "KSI-IAM-JIT: Authorizing Just-in-Time",
+      "Description": "Use a least-privileged, role and attribute-based, and just-in-time security authorization model for all user and non-user accounts and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-jit",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-JIT: Authorizing Just-in-Time",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "iam_no_service_roles_at_project_level",
+        "iam_role_kms_enforce_separation_of_duties",
+        "iam_role_sa_enforce_separation_of_duties",
+        "iam_sa_no_administrative_privileges"
+      ]
+    },
+    {
+      "Id": "ksi-iam-mfa",
+      "Name": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
+      "Description": "Enforce multi-factor authentication (MFA) using methods that are difficult to intercept or impersonate (phishing-resistant MFA) for all user authentication.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-mfa",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-iam-snu",
+      "Name": "KSI-IAM-SNU: Securing Non-User Authentication",
+      "Description": "Enforce appropriately secure authentication methods for non-user accounts and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-snu",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-SNU: Securing Non-User Authentication",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "apikeys_api_restrictions_configured",
+        "apikeys_key_exists",
+        "apikeys_key_rotated_in_90_days",
+        "iam_sa_no_user_managed_keys",
+        "iam_sa_user_managed_key_rotate_90_days",
+        "iam_sa_user_managed_key_unused"
+      ]
+    },
+    {
+      "Id": "ksi-iam-sus",
+      "Name": "KSI-IAM-SUS: Responding to Suspicious Activity",
+      "Description": "Automatically disable or otherwise secure accounts with privileged access in response to suspicious activity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-sus",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-SUS: Responding to Suspicious Activity",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-inr-aar",
+      "Name": "KSI-INR-AAR: Generating After Action Reports",
+      "Description": "Generate incident after action reports and persistently incorporate lessons learned.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-aar",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-AAR: Generating After Action Reports",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "logging_log_metric_filter_and_alert_for_sql_instance_configuration_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_firewall_rule_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_network_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_network_route_changes_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-inr-rir",
+      "Name": "KSI-INR-RIR: Reviewing Incident Response Procedures",
+      "Description": "Persistently review the effectiveness of documented incident response procedures.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-rir",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-RIR: Reviewing Incident Response Procedures",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "iam_organization_essential_contacts_configured",
+        "iam_account_access_approval_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-inr-rpi",
+      "Name": "KSI-INR-RPI: Reviewing Past Incidents",
+      "Description": "Persistently review past incidents for patterns or vulnerabilities.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-rpi",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-RPI: Reviewing Past Incidents",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "logging_log_metric_filter_and_alert_for_audit_configuration_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_bucket_permission_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_custom_role_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_project_ownership_changes_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-mla-ala",
+      "Name": "KSI-MLA-ALA: Authorizing Log Access",
+      "Description": "Optional: Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-ala",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-ALA: Authorizing Log Access",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-mla-evc",
+      "Name": "KSI-MLA-EVC: Evaluating Configurations",
+      "Description": "Persistently evaluate and test the configuration of machine-based information resources, especially infrastructure as code.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-evc",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-EVC: Evaluating Configurations",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-mla-let",
+      "Name": "KSI-MLA-LET: Logging Event Types",
+      "Description": "Maintain a list of information resources and event types that will be logged, monitored, and audited, then do so.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-let",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-LET: Logging Event Types",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "iam_audit_logs_enabled",
+        "iam_cloud_asset_inventory_enabled",
+        "logging_sink_created"
+      ]
+    },
+    {
+      "Id": "ksi-mla-osm",
+      "Name": "KSI-MLA-OSM: Operating SIEM Capability",
+      "Description": "Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistent logging of events, activities, and changes.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-osm",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-OSM: Operating SIEM Capability",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "cloudstorage_bucket_log_retention_policy_lock",
+        "iam_audit_logs_enabled",
+        "logging_sink_created"
+      ]
+    },
+    {
+      "Id": "ksi-mla-rvl",
+      "Name": "KSI-MLA-RVL: Reviewing Logs",
+      "Description": "Persistently review and audit logs.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-rvl",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-RVL: Reviewing Logs",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
@@ -134,52 +744,110 @@
         "cloudsql_instance_postgres_log_min_messages_flag",
         "cloudsql_instance_postgres_log_statement_flag",
         "cloudsql_instance_sqlserver_trace_flag",
-        "cloudstorage_bucket_log_retention_policy_lock",
         "compute_loadbalancer_logging_enabled",
         "compute_network_dns_logging_enabled",
-        "compute_subnet_flow_logs_enabled",
-        "iam_audit_logs_enabled",
-        "logging_log_metric_filter_and_alert_for_audit_configuration_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_bucket_permission_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_custom_role_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_project_ownership_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_sql_instance_configuration_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_vpc_firewall_rule_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_vpc_network_changes_enabled",
-        "logging_log_metric_filter_and_alert_for_vpc_network_route_changes_enabled",
-        "logging_sink_created"
+        "compute_subnet_flow_logs_enabled"
       ]
     },
     {
-      "Id": "ksi-piy",
-      "Name": "KSI-PIY: Policy and Inventory",
-      "Description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured",
+      "Id": "ksi-piy-giv",
+      "Name": "KSI-PIY-GIV: Generating Inventories",
+      "Description": "Use authoritative sources to automatically generate real-time inventories of all information resources when needed.",
       "Attributes": [
         {
-          "ItemId": "ksi-piy",
-          "Section": "Policy and Inventory",
-          "Service": "gcp"
+          "ItemId": "ksi-piy-giv",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-GIV: Generating Inventories",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
         "iam_cloud_asset_inventory_enabled",
-        "iam_organization_essential_contacts_configured",
-        "iam_audit_logs_enabled",
-        "compute_project_os_login_enabled",
-        "compute_instance_serial_ports_in_use",
-        "compute_instance_block_project_wide_ssh_keys_disabled",
-        "logging_sink_created"
+        "iam_organization_essential_contacts_configured"
       ]
     },
     {
-      "Id": "ksi-rpl",
-      "Name": "KSI-RPL: Recovery Planning",
-      "Description": "A secure cloud service offering will define, maintain, and test incident response plan(s) and recovery capabilities to ensure minimal service disruption and data loss",
+      "Id": "ksi-piy-res",
+      "Name": "KSI-PIY-RES: Reviewing Executive Support",
+      "Description": "Persistently review executive support for achieving the organization's security objectives.",
       "Attributes": [
         {
-          "ItemId": "ksi-rpl",
-          "Section": "Recovery Planning",
-          "Service": "gcp"
+          "ItemId": "ksi-piy-res",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RES: Reviewing Executive Support",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-piy-ris",
+      "Name": "KSI-PIY-RIS: Reviewing Investments in Security",
+      "Description": "Persistently review the effectiveness of the organization's investments in achieving security objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-ris",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RIS: Reviewing Investments in Security",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "compute_project_os_login_enabled",
+        "compute_instance_serial_ports_in_use",
+        "compute_instance_block_project_wide_ssh_keys_disabled"
+      ]
+    },
+    {
+      "Id": "ksi-piy-rsd",
+      "Name": "KSI-PIY-RSD: Reviewing Security in the SDLC",
+      "Description": "Persistently review the effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-rsd",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RSD: Reviewing Security in the SDLC",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-piy-rvd",
+      "Name": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
+      "Description": "Persistently review the effectiveness of the provider's vulnerability disclosure program.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-rvd",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-abo",
+      "Name": "KSI-RPL-ABO: Aligning Backups with Objectives",
+      "Description": "Persistently review the alignment of machine-based information resource backups with defined recovery objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-abo",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-ABO: Aligning Backups with Objectives",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
@@ -190,14 +858,81 @@
       ]
     },
     {
-      "Id": "ksi-svc",
-      "Name": "KSI-SVC: Service Configuration",
-      "Description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources",
+      "Id": "ksi-rpl-arp",
+      "Name": "KSI-RPL-ARP: Aligning Recovery Plan",
+      "Description": "Persistently review the alignment of recovery plans with defined recovery objectives.",
       "Attributes": [
         {
-          "ItemId": "ksi-svc",
-          "Section": "Service Configuration",
-          "Service": "gcp"
+          "ItemId": "ksi-rpl-arp",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-ARP: Aligning Recovery Plan",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-rro",
+      "Name": "KSI-RPL-RRO: Reviewing Recovery Objectives",
+      "Description": "Persistently review desired Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO).",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-rro",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-RRO: Reviewing Recovery Objectives",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-trc",
+      "Name": "KSI-RPL-TRC: Testing Recovery Capabilities",
+      "Description": "Persistently test the capability to recover from incidents and contingencies, including alignment with defined recovery objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-trc",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-TRC: Testing Recovery Capabilities",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-acm",
+      "Name": "KSI-SVC-ACM: Automating Configuration Management",
+      "Description": "Manage configuration of machine-based information resources using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-acm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-ACM: Automating Configuration Management",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-asm",
+      "Name": "KSI-SVC-ASM: Automating Secret Management",
+      "Description": "Automate management, protection, and regular rotation of digital keys, certificates, and other secrets.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-asm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-ASM: Automating Secret Management",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
@@ -220,73 +955,152 @@
         "cloudsql_instance_sqlserver_trace_flag",
         "cloudsql_instance_sqlserver_user_connections_flag",
         "cloudsql_instance_sqlserver_user_options_flag",
-        "cloudsql_instance_ssl_connections",
         "compute_instance_encryption_with_csek_enabled",
-        "compute_instance_shielded_vm_enabled",
         "dataproc_encrypted_with_cmks_disabled",
-        "dns_dnssec_disabled",
-        "dns_rsasha1_in_use_to_key_sign_in_dnssec",
-        "dns_rsasha1_in_use_to_zone_sign_in_dnssec",
         "kms_key_not_publicly_accessible",
         "kms_key_rotation_enabled"
       ]
     },
     {
-      "Id": "ksi-tpr",
-      "Name": "KSI-TPR: Third-Party Information Resources",
-      "Description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third-party information resources",
+      "Id": "ksi-svc-eis",
+      "Name": "KSI-SVC-EIS: Evaluating and Improving Security",
+      "Description": "Implement improvements based on persistent evaluation of information resources for opportunities to improve security.",
       "Attributes": [
         {
-          "ItemId": "ksi-tpr",
-          "Section": "Third-Party Information Resources",
-          "Service": "gcp"
+          "ItemId": "ksi-svc-eis",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-EIS: Evaluating and Improving Security",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-prr",
+      "Name": "KSI-SVC-PRR: Preventing Residual Risk",
+      "Description": "Optional: Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-prr",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-PRR: Preventing Residual Risk",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-rud",
+      "Name": "KSI-SVC-RUD: Removing Unwanted Data",
+      "Description": "Optional: Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-rud",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-RUD: Removing Unwanted Data",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-snt",
+      "Name": "KSI-SVC-SNT: Securing Network Traffic",
+      "Description": "Encrypt or otherwise secure network traffic.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-snt",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-SNT: Securing Network Traffic",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "cloudsql_instance_ssl_connections"
+      ]
+    },
+    {
+      "Id": "ksi-svc-vcm",
+      "Name": "KSI-SVC-VCM: Validating Communications",
+      "Description": "Optional: Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-vcm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-VCM: Validating Communications",
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-vri",
+      "Name": "KSI-SVC-VRI: Validating Resource Integrity",
+      "Description": "Use cryptographic methods to validate the integrity of machine-based information resources.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-vri",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-VRI: Validating Resource Integrity",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "dns_dnssec_disabled",
+        "dns_rsasha1_in_use_to_key_sign_in_dnssec",
+        "dns_rsasha1_in_use_to_zone_sign_in_dnssec"
+      ]
+    },
+    {
+      "Id": "ksi-scr-mit",
+      "Name": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
+      "Description": "Persistently identify, review, and mitigate potential supply chain risks.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-scr-mit",
+          "Section": "KSI-SCR: Supply Chain Risk",
+          "SubSection": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
         "artifacts_container_analysis_enabled",
-        "gcr_container_scanning_enabled",
+        "gcr_container_scanning_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-scr-mon",
+      "Name": "KSI-SCR-MON: Monitoring Supply Chain Risk",
+      "Description": "Automatically monitor third party software information resources for upstream vulnerabilities using mechanisms that may include contractual notification requirements or active monitoring services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-scr-mon",
+          "Section": "KSI-SCR: Supply Chain Risk",
+          "SubSection": "KSI-SCR-MON: Monitoring Supply Chain Risk",
+          "Service": "gcp",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
         "compute_public_address_shodan",
         "cloudsql_instance_automated_backups",
         "iam_sa_user_managed_key_rotate_90_days",
         "iam_service_account_unused"
-      ]
-    },
-    {
-      "Id": "ksi-iam-07",
-      "Name": "KSI-IAM-07: Account Lifecycle Management",
-      "Description": "Securely manage the lifecycle and privileges of all accounts, roles, and groups",
-      "Attributes": [
-        {
-          "ItemId": "ksi-iam-07",
-          "Section": "Identity and Access Management",
-          "Service": "gcp"
-        }
-      ],
-      "Checks": [
-        "apikeys_key_rotated_in_90_days",
-        "iam_sa_user_managed_key_rotate_90_days",
-        "iam_sa_user_managed_key_unused",
-        "iam_service_account_unused",
-        "compute_instance_default_service_account_in_use"
-      ]
-    },
-    {
-      "Id": "ksi-mla-07",
-      "Name": "KSI-MLA-07: Monitoring and Logging Inventory",
-      "Description": "Maintain a list of information resources and event types that will be monitored, logged, and audited",
-      "Attributes": [
-        {
-          "ItemId": "ksi-mla-07",
-          "Section": "Monitoring, Logging, and Auditing",
-          "Service": "gcp"
-        }
-      ],
-      "Checks": [
-        "iam_audit_logs_enabled",
-        "iam_cloud_asset_inventory_enabled",
-        "logging_sink_created",
-        "compute_subnet_flow_logs_enabled",
-        "compute_network_dns_logging_enabled"
       ]
     }
   ]

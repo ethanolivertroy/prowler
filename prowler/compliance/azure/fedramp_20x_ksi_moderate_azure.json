@@ -1,9 +1,9 @@
 {
-  "Framework": "FedRAMP-20x-KSI-Low",
-  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Low Impact Level FRMR-0.9.42",
+  "Framework": "FedRAMP-20x-KSI-Moderate",
+  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Moderate Impact Level FRMR-0.9.42",
   "Version": "FRMR-0.9.42",
-  "Provider": "AWS",
-  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Low Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Low impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
+  "Provider": "AZURE",
+  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Moderate Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Moderate impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
   "Requirements": [
     {
       "Id": "ksi-afr-ads",
@@ -14,7 +14,7 @@
           "ItemId": "ksi-afr-ads",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-ADS: Authorization Data Sharing",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -30,7 +30,7 @@
           "ItemId": "ksi-afr-ccm",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -46,7 +46,7 @@
           "ItemId": "ksi-afr-fsi",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-FSI: FedRAMP Security Inbox",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -62,7 +62,7 @@
           "ItemId": "ksi-afr-icp",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-ICP: Incident Communications Procedures",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -78,7 +78,7 @@
           "ItemId": "ksi-afr-mas",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-MAS: Minimum Assessment Scope",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -94,7 +94,7 @@
           "ItemId": "ksi-afr-pva",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-PVA: Persistent Validation and Assessment",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -110,7 +110,7 @@
           "ItemId": "ksi-afr-scg",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-SCG: Secure Configuration Guide",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -126,7 +126,7 @@
           "ItemId": "ksi-afr-scn",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-SCN: Significant Change Notifications",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -142,7 +142,7 @@
           "ItemId": "ksi-afr-ucm",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-UCM: Using Cryptographic Modules",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -158,7 +158,7 @@
           "ItemId": "ksi-afr-vdr",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-VDR: Vulnerability Detection and Response",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -174,7 +174,7 @@
           "ItemId": "ksi-ced-det",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-DET: Reviewing Development and Engineering Training",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -190,7 +190,7 @@
           "ItemId": "ksi-ced-rgt",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RGT: Reviewing General Training",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -206,7 +206,7 @@
           "ItemId": "ksi-ced-rrt",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RRT: Reviewing Response and Recovery Training",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -222,7 +222,7 @@
           "ItemId": "ksi-ced-rst",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RST: Reviewing Role-Specific Training",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -238,27 +238,23 @@
           "ItemId": "ksi-cmt-lmc",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-LMC: Logging Changes",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "cloudtrail_multi_region_enabled",
-        "cloudtrail_log_file_validation_enabled",
-        "cloudtrail_s3_dataevents_read_enabled",
-        "cloudtrail_s3_dataevents_write_enabled",
-        "cloudwatch_changes_to_network_acls_alarm_configured",
-        "cloudwatch_changes_to_network_gateways_alarm_configured",
-        "cloudwatch_changes_to_network_route_tables_alarm_configured",
-        "cloudwatch_changes_to_vpcs_alarm_configured",
-        "cloudwatch_log_metric_filter_and_alarm_for_aws_config_configuration_changes_enabled",
-        "cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled",
-        "cloudwatch_log_metric_filter_aws_organizations_changes",
-        "cloudwatch_log_metric_filter_for_s3_bucket_policy_changes",
-        "cloudwatch_log_metric_filter_policy_changes",
-        "cloudwatch_log_metric_filter_security_group_changes",
-        "config_recorder_all_regions_enabled"
+        "monitor_alert_create_policy_assignment",
+        "monitor_alert_create_update_nsg",
+        "monitor_alert_create_update_sqlserver_fr",
+        "monitor_alert_create_update_public_ip_address_rule",
+        "monitor_alert_create_update_security_solution",
+        "monitor_alert_delete_nsg",
+        "monitor_alert_delete_policy_assignment",
+        "monitor_alert_delete_public_ip_address_rule",
+        "monitor_alert_delete_security_solution",
+        "monitor_diagnostic_setting_with_appropriate_categories",
+        "monitor_diagnostic_settings_exists"
       ]
     },
     {
@@ -270,13 +266,13 @@
           "ItemId": "ksi-cmt-rmv",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-RMV: Redeploying vs Modifying",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ec2_instance_older_than_specific_days"
+        "defender_assessments_vm_endpoint_protection_installed"
       ]
     },
     {
@@ -288,14 +284,12 @@
           "ItemId": "ksi-cmt-rvp",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-RVP: Reviewing Change Procedures",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "ec2_instance_managed_by_ssm"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-cmt-vtd",
@@ -306,13 +300,13 @@
           "ItemId": "ksi-cmt-vtd",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-VTD: Validating Throughout Deployment",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ssm_managed_compliant_patching"
+        "defender_assessments_vm_endpoint_protection_installed"
       ]
     },
     {
@@ -324,26 +318,25 @@
           "ItemId": "ksi-cna-dfp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-DFP: Defining Functionality and Privileges",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ec2_instance_imdsv2_enabled",
-        "ec2_instance_older_than_specific_days"
+        "containerregistry_uses_private_link"
       ]
     },
     {
       "Id": "ksi-cna-eis",
       "Name": "KSI-CNA-EIS: Enforcing Intended State",
-      "Description": "Optional: Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
+      "Description": "Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
       "Attributes": [
         {
           "ItemId": "ksi-cna-eis",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-EIS: Enforcing Intended State",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -359,13 +352,18 @@
           "ItemId": "ksi-cna-ibp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-IBP: Implementing Best Practices",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "eks_cluster_uses_a_supported_version"
+        "app_function_vnet_integration_enabled",
+        "cosmosdb_account_use_private_endpoints",
+        "cosmosdb_account_firewall_use_selected_networks",
+        "databricks_workspace_vnet_injection_enabled",
+        "keyvault_access_only_through_private_endpoints",
+        "keyvault_private_endpoints"
       ]
     },
     {
@@ -377,16 +375,19 @@
           "ItemId": "ksi-cna-mat",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-MAT: Minimizing Attack Surface",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "eks_cluster_not_publicly_accessible",
-        "eks_cluster_private_nodes_enabled",
-        "ec2_instance_public_ip",
-        "vpc_peering_routing_tables_with_least_privilege"
+        "aks_clusters_created_with_private_nodes",
+        "aks_clusters_public_access_disabled",
+        "app_function_not_publicly_accessible",
+        "containerregistry_not_publicly_accessible",
+        "postgresql_flexible_server_allow_access_services_disabled",
+        "sqlserver_unrestricted_inbound_access",
+        "storage_default_network_access_rule_is_denied"
       ]
     },
     {
@@ -398,21 +399,13 @@
           "ItemId": "ksi-cna-ofa",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-OFA: Optimizing for Availability",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "autoscaling_group_multiple_az",
-        "autoscaling_group_multiple_instance_types",
-        "autoscaling_group_capacity_rebalance_enabled",
-        "dynamodb_tables_pitr_enabled",
-        "dynamodb_table_deletion_protection_enabled",
-        "elb_cross_zone_load_balancing_enabled",
-        "elbv2_is_in_multiple_az",
-        "rds_instance_multi_az",
-        "rds_cluster_multi_az"
+        "vm_backup_enabled"
       ]
     },
     {
@@ -424,15 +417,16 @@
           "ItemId": "ksi-cna-rnt",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-RNT: Restricting Network Traffic",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ec2_networkacl_allow_ingress_any_port",
-        "ec2_securitygroup_default_restrict_traffic",
-        "ec2_securitygroup_allow_ingress_from_internet_to_any_port"
+        "network_http_internet_access_restricted",
+        "network_ssh_internet_access_restricted",
+        "network_rdp_internet_access_restricted",
+        "network_udp_internet_access_restricted"
       ]
     },
     {
@@ -444,14 +438,12 @@
           "ItemId": "ksi-cna-rvp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-RVP: Reviewing Protections",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "elbv2_waf_acl_attached"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-cna-uln",
@@ -462,14 +454,16 @@
           "ItemId": "ksi-cna-uln",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-ULN: Using Logical Networking",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "eks_cluster_network_policy_enabled",
-        "elbv2_waf_acl_attached"
+        "aks_network_policy_enabled",
+        "network_bastion_host_exists",
+        "network_flow_log_captured_sent",
+        "network_watcher_enabled"
       ]
     },
     {
@@ -481,16 +475,13 @@
           "ItemId": "ksi-iam-aam",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-AAM: Automating Account Management",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_no_root_access_key",
-        "iam_user_accesskey_unused",
-        "iam_user_console_access_unused",
-        "organizations_delegated_administrators"
+        "app_ensure_auth_is_set_up"
       ]
     },
     {
@@ -502,19 +493,13 @@
           "ItemId": "ksi-iam-apm",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-APM: Adopting Passwordless Methods",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_password_policy_expires_passwords_within_90_days_or_less",
-        "iam_password_policy_lowercase",
-        "iam_password_policy_minimum_length_14",
-        "iam_password_policy_number",
-        "iam_password_policy_reuse_24",
-        "iam_password_policy_symbol",
-        "iam_password_policy_uppercase"
+        "entra_trusted_named_locations_exists"
       ]
     },
     {
@@ -526,14 +511,21 @@
           "ItemId": "ksi-iam-elp",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-ELP: Ensuring Least Privilege",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "organizations_scp_check_deny_regions",
-        "organizations_opt_out_ai_services_policy"
+        "entra_policy_default_users_cannot_create_security_groups",
+        "entra_policy_ensure_default_user_cannot_create_apps",
+        "entra_policy_ensure_default_user_cannot_create_tenants",
+        "entra_policy_guest_invite_only_for_admin_roles",
+        "entra_policy_guest_users_access_restrictions",
+        "entra_policy_restricts_user_consent_for_apps",
+        "entra_policy_user_consent_for_verified_apps",
+        "entra_users_cannot_create_microsoft_365_groups",
+        "keyvault_rbac_enabled"
       ]
     },
     {
@@ -545,20 +537,17 @@
           "ItemId": "ksi-iam-jit",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-JIT: Authorizing Just-in-Time",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_administrator_access_with_mfa",
-        "iam_aws_attached_policy_no_administrative_privileges",
-        "iam_customer_attached_policy_no_administrative_privileges",
-        "iam_inline_policy_no_administrative_privileges",
-        "iam_no_custom_policy_permissive_role_assumption",
-        "iam_policy_attached_only_to_group_or_roles",
-        "iam_policy_no_full_access_to_cloudtrail",
-        "iam_policy_no_full_access_to_kms"
+        "entra_global_admin_in_less_than_five_users",
+        "iam_custom_role_has_permissions_to_administer_resource_locks",
+        "iam_role_user_access_admin_restricted",
+        "iam_subscription_roles_owner_custom_not_created",
+        "app_function_identity_without_admin_privileges"
       ]
     },
     {
@@ -570,16 +559,17 @@
           "ItemId": "ksi-iam-mfa",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_root_hardware_mfa_enabled",
-        "iam_root_mfa_enabled",
-        "iam_user_hardware_mfa_enabled",
-        "iam_user_mfa_enabled_console_access"
+        "entra_conditional_access_policy_require_mfa_for_management_api",
+        "entra_non_privileged_user_has_mfa",
+        "entra_privileged_user_has_mfa",
+        "entra_security_defaults_enabled",
+        "entra_user_with_vm_access_has_mfa"
       ]
     },
     {
@@ -591,14 +581,14 @@
           "ItemId": "ksi-iam-snu",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-SNU: Securing Non-User Authentication",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_rotate_access_key_90_days",
-        "iam_user_two_active_access_key"
+        "app_function_identity_is_configured",
+        "app_register_with_identity"
       ]
     },
     {
@@ -610,14 +600,13 @@
           "ItemId": "ksi-iam-sus",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-SUS: Responding to Suspicious Activity",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "guardduty_is_enabled",
-        "guardduty_no_high_severity_findings"
+        "defender_ensure_wdatp_is_enabled"
       ]
     },
     {
@@ -629,19 +618,25 @@
           "ItemId": "ksi-inr-aar",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-AAR: Generating After Action Reports",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "guardduty_ec2_malware_protection_enabled",
-        "guardduty_eks_audit_log_enabled",
-        "guardduty_is_enabled",
-        "guardduty_eks_runtime_monitoring_enabled",
-        "guardduty_lambda_protection_enabled",
-        "guardduty_rds_protection_enabled",
-        "guardduty_s3_protection_enabled"
+        "defender_ensure_defender_for_app_services_is_on",
+        "defender_ensure_defender_for_arm_is_on",
+        "defender_ensure_defender_for_azure_sql_databases_is_on",
+        "defender_ensure_defender_for_containers_is_on",
+        "defender_ensure_defender_for_cosmosdb_is_on",
+        "defender_ensure_defender_for_databases_is_on",
+        "defender_ensure_defender_for_dns_is_on",
+        "defender_ensure_defender_for_keyvault_is_on",
+        "defender_ensure_defender_for_os_relational_databases_is_on",
+        "defender_ensure_defender_for_server_is_on",
+        "defender_ensure_defender_for_sql_servers_is_on",
+        "defender_ensure_defender_for_storage_is_on",
+        "defender_ensure_iot_hub_defender_is_on"
       ]
     },
     {
@@ -653,15 +648,16 @@
           "ItemId": "ksi-inr-rir",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-RIR: Reviewing Incident Response Procedures",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "guardduty_is_enabled",
-        "securityhub_enabled",
-        "sns_topics_kms_encryption_at_rest_enabled"
+        "defender_attack_path_notifications_properly_configured",
+        "defender_ensure_notify_alerts_severity_is_high",
+        "defender_ensure_notify_emails_to_owners",
+        "defender_additional_email_configured_with_a_security_contact"
       ]
     },
     {
@@ -673,27 +669,26 @@
           "ItemId": "ksi-inr-rpi",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-RPI: Reviewing Past Incidents",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "guardduty_centrally_managed",
-        "inspector2_is_enabled",
-        "inspector2_active_findings_exist"
+        "defender_container_images_resolved_vulnerabilities",
+        "defender_container_images_scan_enabled"
       ]
     },
     {
       "Id": "ksi-mla-ala",
       "Name": "KSI-MLA-ALA: Authorizing Log Access",
-      "Description": "Optional: Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
+      "Description": "Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
       "Attributes": [
         {
           "ItemId": "ksi-mla-ala",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-ALA: Authorizing Log Access",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -709,14 +704,13 @@
           "ItemId": "ksi-mla-evc",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-EVC: Evaluating Configurations",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "config_recorder_all_regions_enabled",
-        "config_recorder_using_aws_service_role"
+        "monitor_diagnostic_setting_with_appropriate_categories"
       ]
     },
     {
@@ -728,14 +722,17 @@
           "ItemId": "ksi-mla-let",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-LET: Logging Event Types",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "inspector2_is_enabled",
-        "config_recorder_all_regions_enabled"
+        "defender_auto_provisioning_log_analytics_agent_vms_on",
+        "defender_auto_provisioning_vulnerabilty_assessments_machines_on",
+        "monitor_diagnostic_settings_exists",
+        "monitor_diagnostic_setting_with_appropriate_categories",
+        "network_watcher_enabled"
       ]
     },
     {
@@ -747,18 +744,13 @@
           "ItemId": "ksi-mla-osm",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-OSM: Operating SIEM Capability",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "cloudtrail_cloudwatch_logging_enabled",
-        "cloudtrail_kms_encryption_enabled",
-        "cloudtrail_log_file_validation_enabled",
-        "cloudtrail_multi_region_enabled",
-        "cloudwatch_log_group_kms_encryption_enabled",
-        "cloudwatch_log_group_retention_policy_specific_days_enabled"
+        "keyvault_logging_enabled"
       ]
     },
     {
@@ -770,26 +762,23 @@
           "ItemId": "ksi-mla-rvl",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-RVL: Reviewing Logs",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "apigateway_restapi_logging_enabled",
-        "cloudtrail_s3_dataevents_read_enabled",
-        "cloudtrail_s3_dataevents_write_enabled",
-        "ecs_cluster_container_insights_enabled",
-        "eks_control_plane_logging_all_types_enabled",
-        "elb_logging_enabled",
-        "elbv2_logging_enabled",
-        "opensearch_service_domains_cloudwatch_logging_enabled",
-        "rds_instance_enhanced_monitoring_enabled",
-        "rds_instance_integration_cloudwatch_logs",
-        "redshift_cluster_audit_logging",
-        "s3_bucket_server_access_logging_enabled",
-        "vpc_flow_logs_enabled",
-        "wafv2_webacl_logging_enabled"
+        "app_function_application_insights_enabled",
+        "app_http_logs_enabled",
+        "appinsights_ensure_is_configured",
+        "network_flow_log_captured_sent",
+        "network_flow_log_more_than_90_days",
+        "postgresql_flexible_server_log_connections_on",
+        "postgresql_flexible_server_log_checkpoints_on",
+        "postgresql_flexible_server_log_connections_on",
+        "postgresql_flexible_server_log_disconnections_on",
+        "sqlserver_auditing_enabled",
+        "sqlserver_auditing_retention_90_days"
       ]
     },
     {
@@ -801,16 +790,13 @@
           "ItemId": "ksi-piy-giv",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-GIV: Generating Inventories",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "config_recorder_all_regions_enabled",
-        "ec2_instance_managed_by_ssm",
-        "organizations_account_part_of_organizations",
-        "organizations_delegated_administrators"
+        "defender_assessments_vm_endpoint_protection_installed"
       ]
     },
     {
@@ -822,7 +808,7 @@
           "ItemId": "ksi-piy-res",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RES: Reviewing Executive Support",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -838,13 +824,20 @@
           "ItemId": "ksi-piy-ris",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RIS: Reviewing Investments in Security",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "trustedadvisor_premium_support_plan_subscribed"
+        "defender_ensure_defender_for_containers_is_on",
+        "defender_ensure_defender_for_app_services_is_on",
+        "defender_ensure_defender_for_azure_sql_databases_is_on",
+        "defender_ensure_defender_for_keyvault_is_on",
+        "defender_ensure_defender_for_server_is_on",
+        "defender_ensure_defender_for_sql_servers_is_on",
+        "defender_ensure_defender_for_storage_is_on",
+        "policy_ensure_asc_enforcement_enabled"
       ]
     },
     {
@@ -856,7 +849,7 @@
           "ItemId": "ksi-piy-rsd",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RSD: Reviewing Security in the SDLC",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -872,7 +865,7 @@
           "ItemId": "ksi-piy-rvd",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -888,24 +881,19 @@
           "ItemId": "ksi-rpl-abo",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-ABO: Aligning Backups with Objectives",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "backup_vaults_encrypted",
-        "backup_recovery_point_encrypted",
-        "dlm_ebs_snapshot_lifecycle_policy_exists",
-        "dynamodb_tables_pitr_enabled",
-        "dynamodb_table_deletion_protection_enabled",
-        "efs_have_backup_enabled",
-        "fsx_file_system_copy_tags_to_backups_enabled",
-        "rds_instance_backup_enabled",
-        "rds_instance_deletion_protection",
-        "rds_cluster_deletion_protection",
-        "rds_snapshots_encrypted",
-        "redshift_cluster_automated_snapshot"
+        "postgresql_flexible_server_log_retention_days_greater_3",
+        "sqlserver_auditing_retention_90_days",
+        "storage_geo_redundant_enabled",
+        "storage_ensure_file_shares_soft_delete_is_enabled",
+        "storage_ensure_soft_delete_is_enabled",
+        "vm_backup_enabled",
+        "vm_sufficient_daily_backup_retention_period"
       ]
     },
     {
@@ -917,16 +905,12 @@
           "ItemId": "ksi-rpl-arp",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-ARP: Aligning Recovery Plan",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "backup_plans_exist",
-        "backup_reportplans_exist",
-        "backup_vaults_exist"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-rpl-rro",
@@ -937,7 +921,7 @@
           "ItemId": "ksi-rpl-rro",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-RRO: Reviewing Recovery Objectives",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -953,7 +937,7 @@
           "ItemId": "ksi-rpl-trc",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-TRC: Testing Recovery Capabilities",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -969,15 +953,13 @@
           "ItemId": "ksi-svc-acm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-ACM: Automating Configuration Management",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "config_recorder_all_regions_enabled",
-        "ec2_instance_managed_by_ssm",
-        "ssm_managed_compliant_patching"
+        "containerregistry_admin_user_disabled"
       ]
     },
     {
@@ -989,32 +971,23 @@
           "ItemId": "ksi-svc-asm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-ASM: Automating Secret Management",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "apigateway_restapi_cache_encrypted",
-        "cloudtrail_kms_encryption_enabled",
-        "dynamodb_accelerator_cluster_encryption_enabled",
-        "dynamodb_tables_kms_cmk_encryption_enabled",
-        "ec2_ebs_volume_encryption",
-        "ec2_ebs_default_encryption",
-        "efs_encryption_at_rest_enabled",
-        "eks_cluster_kms_cmk_encryption_in_secrets_enabled",
-        "elasticache_redis_cluster_auto_minor_version_upgrades",
-        "fsx_file_system_copy_tags_to_backups_enabled",
-        "kinesis_stream_encrypted_at_rest",
-        "kms_cmk_rotation_enabled",
-        "kms_key_not_publicly_accessible",
-        "rds_instance_storage_encrypted",
-        "rds_cluster_storage_encrypted",
-        "redshift_cluster_automatic_upgrades",
-        "s3_bucket_default_encryption",
-        "sagemaker_notebook_instance_encryption_enabled",
-        "sns_topics_kms_encryption_at_rest_enabled",
-        "sqs_queues_server_side_encryption_enabled"
+        "cosmosdb_account_use_aad_and_rbac",
+        "databricks_workspace_cmk_encryption_enabled",
+        "keyvault_key_expiration_set_in_non_rbac",
+        "keyvault_key_rotation_enabled",
+        "keyvault_non_rbac_secret_expiration_set",
+        "sqlserver_microsoft_defender_enabled",
+        "sqlserver_tde_encrypted_with_cmk",
+        "sqlserver_tde_encryption_enabled",
+        "storage_ensure_encryption_with_customer_managed_keys",
+        "storage_infrastructure_encryption_is_enabled",
+        "vm_ensure_attached_disks_encrypted_with_cmk"
       ]
     },
     {
@@ -1026,25 +999,23 @@
           "ItemId": "ksi-svc-eis",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-EIS: Evaluating and Improving Security",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "trustedadvisor_premium_support_plan_subscribed"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-svc-prr",
       "Name": "KSI-SVC-PRR: Preventing Residual Risk",
-      "Description": "Optional: Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
+      "Description": "Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-prr",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-PRR: Preventing Residual Risk",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -1054,13 +1025,13 @@
     {
       "Id": "ksi-svc-rud",
       "Name": "KSI-SVC-RUD: Removing Unwanted Data",
-      "Description": "Optional: Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
+      "Description": "Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-rud",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-RUD: Removing Unwanted Data",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -1076,26 +1047,33 @@
           "ItemId": "ksi-svc-snt",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-SNT: Securing Network Traffic",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "elbv2_ssl_listeners",
-        "s3_bucket_secure_transport_policy"
+        "app_client_certificates_on",
+        "app_ensure_http_is_redirected_to_https",
+        "app_minimum_tls_version_12",
+        "mysql_flexible_server_ssl_connection_enabled",
+        "mysql_flexible_server_minimum_tls_version_12",
+        "postgresql_flexible_server_enforce_ssl_enabled",
+        "sqlserver_recommended_minimal_tls_version",
+        "storage_secure_transfer_required_is_enabled",
+        "storage_ensure_minimum_tls_version_12"
       ]
     },
     {
       "Id": "ksi-svc-vcm",
       "Name": "KSI-SVC-VCM: Validating Communications",
-      "Description": "Optional: Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
+      "Description": "Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-vcm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-VCM: Validating Communications",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -1111,14 +1089,12 @@
           "ItemId": "ksi-svc-vri",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-VRI: Validating Resource Integrity",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "acm_certificates_expiration_check"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-scr-mit",
@@ -1129,17 +1105,14 @@
           "ItemId": "ksi-scr-mit",
           "Section": "KSI-SCR: Supply Chain Risk",
           "SubSection": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ecr_registry_scan_images_on_push_enabled",
-        "ecr_repositories_lifecycle_policy_enabled",
-        "ecr_repositories_not_publicly_accessible",
-        "ecr_repositories_scan_vulnerabilities_in_latest_image",
-        "ecr_repositories_tag_immutability"
+        "defender_container_images_resolved_vulnerabilities",
+        "defender_container_images_scan_enabled"
       ]
     },
     {
@@ -1151,17 +1124,18 @@
           "ItemId": "ksi-scr-mon",
           "Section": "KSI-SCR: Supply Chain Risk",
           "SubSection": "KSI-SCR-MON: Monitoring Supply Chain Risk",
-          "Service": "aws",
+          "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "inspector2_active_findings_exist",
-        "inspector2_is_enabled",
-        "awslambda_function_using_supported_runtimes",
-        "ssm_managed_compliant_patching",
-        "guardduty_no_high_severity_findings"
+        "app_ensure_java_version_is_latest",
+        "app_ensure_php_version_is_latest",
+        "app_ensure_python_version_is_latest",
+        "app_function_latest_runtime_version",
+        "defender_ensure_system_updates_are_applied",
+        "defender_assessments_vm_endpoint_protection_installed"
       ]
     }
   ]

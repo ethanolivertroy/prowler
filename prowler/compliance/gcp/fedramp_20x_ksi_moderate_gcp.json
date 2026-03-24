@@ -1,9 +1,9 @@
 {
-  "Framework": "FedRAMP-20x-KSI-Low",
-  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Low Impact Level FRMR-0.9.42",
+  "Framework": "FedRAMP-20x-KSI-Moderate",
+  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Moderate Impact Level FRMR-0.9.42",
   "Version": "FRMR-0.9.42",
-  "Provider": "AWS",
-  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Low Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Low impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
+  "Provider": "GCP",
+  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Moderate Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Moderate impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
   "Requirements": [
     {
       "Id": "ksi-afr-ads",
@@ -14,7 +14,7 @@
           "ItemId": "ksi-afr-ads",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-ADS: Authorization Data Sharing",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -30,7 +30,7 @@
           "ItemId": "ksi-afr-ccm",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -46,7 +46,7 @@
           "ItemId": "ksi-afr-fsi",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-FSI: FedRAMP Security Inbox",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -62,7 +62,7 @@
           "ItemId": "ksi-afr-icp",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-ICP: Incident Communications Procedures",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -78,7 +78,7 @@
           "ItemId": "ksi-afr-mas",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-MAS: Minimum Assessment Scope",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -94,7 +94,7 @@
           "ItemId": "ksi-afr-pva",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-PVA: Persistent Validation and Assessment",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -110,7 +110,7 @@
           "ItemId": "ksi-afr-scg",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-SCG: Secure Configuration Guide",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -126,7 +126,7 @@
           "ItemId": "ksi-afr-scn",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-SCN: Significant Change Notifications",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -142,7 +142,7 @@
           "ItemId": "ksi-afr-ucm",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-UCM: Using Cryptographic Modules",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -158,7 +158,7 @@
           "ItemId": "ksi-afr-vdr",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-VDR: Vulnerability Detection and Response",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -174,7 +174,7 @@
           "ItemId": "ksi-ced-det",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-DET: Reviewing Development and Engineering Training",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -190,7 +190,7 @@
           "ItemId": "ksi-ced-rgt",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RGT: Reviewing General Training",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -206,7 +206,7 @@
           "ItemId": "ksi-ced-rrt",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RRT: Reviewing Response and Recovery Training",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -222,7 +222,7 @@
           "ItemId": "ksi-ced-rst",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RST: Reviewing Role-Specific Training",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -238,27 +238,21 @@
           "ItemId": "ksi-cmt-lmc",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-LMC: Logging Changes",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "cloudtrail_multi_region_enabled",
-        "cloudtrail_log_file_validation_enabled",
-        "cloudtrail_s3_dataevents_read_enabled",
-        "cloudtrail_s3_dataevents_write_enabled",
-        "cloudwatch_changes_to_network_acls_alarm_configured",
-        "cloudwatch_changes_to_network_gateways_alarm_configured",
-        "cloudwatch_changes_to_network_route_tables_alarm_configured",
-        "cloudwatch_changes_to_vpcs_alarm_configured",
-        "cloudwatch_log_metric_filter_and_alarm_for_aws_config_configuration_changes_enabled",
-        "cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled",
-        "cloudwatch_log_metric_filter_aws_organizations_changes",
-        "cloudwatch_log_metric_filter_for_s3_bucket_policy_changes",
-        "cloudwatch_log_metric_filter_policy_changes",
-        "cloudwatch_log_metric_filter_security_group_changes",
-        "config_recorder_all_regions_enabled"
+        "iam_audit_logs_enabled",
+        "logging_log_metric_filter_and_alert_for_audit_configuration_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_bucket_permission_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_custom_role_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_project_ownership_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_sql_instance_configuration_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_firewall_rule_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_network_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_network_route_changes_enabled"
       ]
     },
     {
@@ -270,13 +264,14 @@
           "ItemId": "ksi-cmt-rmv",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-RMV: Redeploying vs Modifying",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ec2_instance_older_than_specific_days"
+        "compute_instance_confidential_computing_enabled",
+        "compute_instance_shielded_vm_enabled"
       ]
     },
     {
@@ -288,13 +283,15 @@
           "ItemId": "ksi-cmt-rvp",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-RVP: Reviewing Change Procedures",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ec2_instance_managed_by_ssm"
+        "iam_cloud_asset_inventory_enabled",
+        "compute_instance_serial_ports_in_use",
+        "compute_project_os_login_enabled"
       ]
     },
     {
@@ -306,14 +303,12 @@
           "ItemId": "ksi-cmt-vtd",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-VTD: Validating Throughout Deployment",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "ssm_managed_compliant_patching"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-cna-dfp",
@@ -324,26 +319,26 @@
           "ItemId": "ksi-cna-dfp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-DFP: Defining Functionality and Privileges",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ec2_instance_imdsv2_enabled",
-        "ec2_instance_older_than_specific_days"
+        "cloudstorage_bucket_uniform_bucket_level_access",
+        "compute_network_not_legacy"
       ]
     },
     {
       "Id": "ksi-cna-eis",
       "Name": "KSI-CNA-EIS: Enforcing Intended State",
-      "Description": "Optional: Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
+      "Description": "Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
       "Attributes": [
         {
           "ItemId": "ksi-cna-eis",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-EIS: Enforcing Intended State",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -359,13 +354,13 @@
           "ItemId": "ksi-cna-ibp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-IBP: Implementing Best Practices",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "eks_cluster_uses_a_supported_version"
+        "gke_cluster_no_default_service_account"
       ]
     },
     {
@@ -377,16 +372,18 @@
           "ItemId": "ksi-cna-mat",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-MAT: Minimizing Attack Surface",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "eks_cluster_not_publicly_accessible",
-        "eks_cluster_private_nodes_enabled",
-        "ec2_instance_public_ip",
-        "vpc_peering_routing_tables_with_least_privilege"
+        "cloudsql_instance_public_access",
+        "cloudsql_instance_public_ip",
+        "cloudsql_instance_private_ip_assignment",
+        "compute_instance_block_project_wide_ssh_keys_disabled",
+        "compute_instance_ip_forwarding_is_enabled",
+        "compute_instance_public_ip"
       ]
     },
     {
@@ -398,22 +395,12 @@
           "ItemId": "ksi-cna-ofa",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-OFA: Optimizing for Availability",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "autoscaling_group_multiple_az",
-        "autoscaling_group_multiple_instance_types",
-        "autoscaling_group_capacity_rebalance_enabled",
-        "dynamodb_tables_pitr_enabled",
-        "dynamodb_table_deletion_protection_enabled",
-        "elb_cross_zone_load_balancing_enabled",
-        "elbv2_is_in_multiple_az",
-        "rds_instance_multi_az",
-        "rds_cluster_multi_az"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-cna-rnt",
@@ -424,15 +411,15 @@
           "ItemId": "ksi-cna-rnt",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-RNT: Restricting Network Traffic",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ec2_networkacl_allow_ingress_any_port",
-        "ec2_securitygroup_default_restrict_traffic",
-        "ec2_securitygroup_allow_ingress_from_internet_to_any_port"
+        "compute_firewall_rdp_access_from_the_internet_allowed",
+        "compute_firewall_ssh_access_from_the_internet_allowed",
+        "compute_network_default_in_use"
       ]
     },
     {
@@ -444,14 +431,12 @@
           "ItemId": "ksi-cna-rvp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-RVP: Reviewing Protections",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "elbv2_waf_acl_attached"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-cna-uln",
@@ -462,14 +447,15 @@
           "ItemId": "ksi-cna-uln",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-ULN: Using Logical Networking",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "eks_cluster_network_policy_enabled",
-        "elbv2_waf_acl_attached"
+        "compute_loadbalancer_logging_enabled",
+        "compute_network_dns_logging_enabled",
+        "compute_subnet_flow_logs_enabled"
       ]
     },
     {
@@ -481,16 +467,13 @@
           "ItemId": "ksi-iam-aam",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-AAM: Automating Account Management",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_no_root_access_key",
-        "iam_user_accesskey_unused",
-        "iam_user_console_access_unused",
-        "organizations_delegated_administrators"
+        "iam_service_account_unused"
       ]
     },
     {
@@ -502,20 +485,12 @@
           "ItemId": "ksi-iam-apm",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-APM: Adopting Passwordless Methods",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "iam_password_policy_expires_passwords_within_90_days_or_less",
-        "iam_password_policy_lowercase",
-        "iam_password_policy_minimum_length_14",
-        "iam_password_policy_number",
-        "iam_password_policy_reuse_24",
-        "iam_password_policy_symbol",
-        "iam_password_policy_uppercase"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-iam-elp",
@@ -526,14 +501,14 @@
           "ItemId": "ksi-iam-elp",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-ELP: Ensuring Least Privilege",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "organizations_scp_check_deny_regions",
-        "organizations_opt_out_ai_services_policy"
+        "compute_instance_default_service_account_in_use",
+        "compute_instance_default_service_account_in_use_with_full_api_access"
       ]
     },
     {
@@ -545,20 +520,16 @@
           "ItemId": "ksi-iam-jit",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-JIT: Authorizing Just-in-Time",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_administrator_access_with_mfa",
-        "iam_aws_attached_policy_no_administrative_privileges",
-        "iam_customer_attached_policy_no_administrative_privileges",
-        "iam_inline_policy_no_administrative_privileges",
-        "iam_no_custom_policy_permissive_role_assumption",
-        "iam_policy_attached_only_to_group_or_roles",
-        "iam_policy_no_full_access_to_cloudtrail",
-        "iam_policy_no_full_access_to_kms"
+        "iam_no_service_roles_at_project_level",
+        "iam_role_kms_enforce_separation_of_duties",
+        "iam_role_sa_enforce_separation_of_duties",
+        "iam_sa_no_administrative_privileges"
       ]
     },
     {
@@ -570,17 +541,12 @@
           "ItemId": "ksi-iam-mfa",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "iam_root_hardware_mfa_enabled",
-        "iam_root_mfa_enabled",
-        "iam_user_hardware_mfa_enabled",
-        "iam_user_mfa_enabled_console_access"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-iam-snu",
@@ -591,14 +557,18 @@
           "ItemId": "ksi-iam-snu",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-SNU: Securing Non-User Authentication",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "iam_rotate_access_key_90_days",
-        "iam_user_two_active_access_key"
+        "apikeys_api_restrictions_configured",
+        "apikeys_key_exists",
+        "apikeys_key_rotated_in_90_days",
+        "iam_sa_no_user_managed_keys",
+        "iam_sa_user_managed_key_rotate_90_days",
+        "iam_sa_user_managed_key_unused"
       ]
     },
     {
@@ -610,15 +580,12 @@
           "ItemId": "ksi-iam-sus",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-SUS: Responding to Suspicious Activity",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "guardduty_is_enabled",
-        "guardduty_no_high_severity_findings"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-inr-aar",
@@ -629,19 +596,16 @@
           "ItemId": "ksi-inr-aar",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-AAR: Generating After Action Reports",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "guardduty_ec2_malware_protection_enabled",
-        "guardduty_eks_audit_log_enabled",
-        "guardduty_is_enabled",
-        "guardduty_eks_runtime_monitoring_enabled",
-        "guardduty_lambda_protection_enabled",
-        "guardduty_rds_protection_enabled",
-        "guardduty_s3_protection_enabled"
+        "logging_log_metric_filter_and_alert_for_sql_instance_configuration_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_firewall_rule_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_network_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_vpc_network_route_changes_enabled"
       ]
     },
     {
@@ -653,15 +617,14 @@
           "ItemId": "ksi-inr-rir",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-RIR: Reviewing Incident Response Procedures",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "guardduty_is_enabled",
-        "securityhub_enabled",
-        "sns_topics_kms_encryption_at_rest_enabled"
+        "iam_organization_essential_contacts_configured",
+        "iam_account_access_approval_enabled"
       ]
     },
     {
@@ -673,27 +636,28 @@
           "ItemId": "ksi-inr-rpi",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-RPI: Reviewing Past Incidents",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "guardduty_centrally_managed",
-        "inspector2_is_enabled",
-        "inspector2_active_findings_exist"
+        "logging_log_metric_filter_and_alert_for_audit_configuration_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_bucket_permission_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_custom_role_changes_enabled",
+        "logging_log_metric_filter_and_alert_for_project_ownership_changes_enabled"
       ]
     },
     {
       "Id": "ksi-mla-ala",
       "Name": "KSI-MLA-ALA: Authorizing Log Access",
-      "Description": "Optional: Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
+      "Description": "Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
       "Attributes": [
         {
           "ItemId": "ksi-mla-ala",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-ALA: Authorizing Log Access",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -709,15 +673,12 @@
           "ItemId": "ksi-mla-evc",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-EVC: Evaluating Configurations",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "config_recorder_all_regions_enabled",
-        "config_recorder_using_aws_service_role"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-mla-let",
@@ -728,14 +689,15 @@
           "ItemId": "ksi-mla-let",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-LET: Logging Event Types",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "inspector2_is_enabled",
-        "config_recorder_all_regions_enabled"
+        "iam_audit_logs_enabled",
+        "iam_cloud_asset_inventory_enabled",
+        "logging_sink_created"
       ]
     },
     {
@@ -747,18 +709,15 @@
           "ItemId": "ksi-mla-osm",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-OSM: Operating SIEM Capability",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "cloudtrail_cloudwatch_logging_enabled",
-        "cloudtrail_kms_encryption_enabled",
-        "cloudtrail_log_file_validation_enabled",
-        "cloudtrail_multi_region_enabled",
-        "cloudwatch_log_group_kms_encryption_enabled",
-        "cloudwatch_log_group_retention_policy_specific_days_enabled"
+        "cloudstorage_bucket_log_retention_policy_lock",
+        "iam_audit_logs_enabled",
+        "logging_sink_created"
       ]
     },
     {
@@ -770,26 +729,24 @@
           "ItemId": "ksi-mla-rvl",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-RVL: Reviewing Logs",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "apigateway_restapi_logging_enabled",
-        "cloudtrail_s3_dataevents_read_enabled",
-        "cloudtrail_s3_dataevents_write_enabled",
-        "ecs_cluster_container_insights_enabled",
-        "eks_control_plane_logging_all_types_enabled",
-        "elb_logging_enabled",
-        "elbv2_logging_enabled",
-        "opensearch_service_domains_cloudwatch_logging_enabled",
-        "rds_instance_enhanced_monitoring_enabled",
-        "rds_instance_integration_cloudwatch_logs",
-        "redshift_cluster_audit_logging",
-        "s3_bucket_server_access_logging_enabled",
-        "vpc_flow_logs_enabled",
-        "wafv2_webacl_logging_enabled"
+        "cloudsql_instance_postgres_enable_pgaudit_flag",
+        "cloudsql_instance_postgres_log_connections_flag",
+        "cloudsql_instance_postgres_log_disconnections_flag",
+        "cloudsql_instance_postgres_log_error_verbosity_flag",
+        "cloudsql_instance_postgres_log_min_duration_statement_flag",
+        "cloudsql_instance_postgres_log_min_error_statement_flag",
+        "cloudsql_instance_postgres_log_min_messages_flag",
+        "cloudsql_instance_postgres_log_statement_flag",
+        "cloudsql_instance_sqlserver_trace_flag",
+        "compute_loadbalancer_logging_enabled",
+        "compute_network_dns_logging_enabled",
+        "compute_subnet_flow_logs_enabled"
       ]
     },
     {
@@ -801,16 +758,14 @@
           "ItemId": "ksi-piy-giv",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-GIV: Generating Inventories",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "config_recorder_all_regions_enabled",
-        "ec2_instance_managed_by_ssm",
-        "organizations_account_part_of_organizations",
-        "organizations_delegated_administrators"
+        "iam_cloud_asset_inventory_enabled",
+        "iam_organization_essential_contacts_configured"
       ]
     },
     {
@@ -822,7 +777,7 @@
           "ItemId": "ksi-piy-res",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RES: Reviewing Executive Support",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -838,13 +793,15 @@
           "ItemId": "ksi-piy-ris",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RIS: Reviewing Investments in Security",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "trustedadvisor_premium_support_plan_subscribed"
+        "compute_project_os_login_enabled",
+        "compute_instance_serial_ports_in_use",
+        "compute_instance_block_project_wide_ssh_keys_disabled"
       ]
     },
     {
@@ -856,7 +813,7 @@
           "ItemId": "ksi-piy-rsd",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RSD: Reviewing Security in the SDLC",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -872,7 +829,7 @@
           "ItemId": "ksi-piy-rvd",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -888,24 +845,16 @@
           "ItemId": "ksi-rpl-abo",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-ABO: Aligning Backups with Objectives",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "backup_vaults_encrypted",
-        "backup_recovery_point_encrypted",
-        "dlm_ebs_snapshot_lifecycle_policy_exists",
-        "dynamodb_tables_pitr_enabled",
-        "dynamodb_table_deletion_protection_enabled",
-        "efs_have_backup_enabled",
-        "fsx_file_system_copy_tags_to_backups_enabled",
-        "rds_instance_backup_enabled",
-        "rds_instance_deletion_protection",
-        "rds_cluster_deletion_protection",
-        "rds_snapshots_encrypted",
-        "redshift_cluster_automated_snapshot"
+        "cloudsql_instance_automated_backups",
+        "cloudstorage_bucket_log_retention_policy_lock",
+        "cloudstorage_bucket_versioning_enabled",
+        "cloudstorage_bucket_lifecycle_management_enabled"
       ]
     },
     {
@@ -917,16 +866,12 @@
           "ItemId": "ksi-rpl-arp",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-ARP: Aligning Recovery Plan",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "backup_plans_exist",
-        "backup_reportplans_exist",
-        "backup_vaults_exist"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-rpl-rro",
@@ -937,7 +882,7 @@
           "ItemId": "ksi-rpl-rro",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-RRO: Reviewing Recovery Objectives",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -953,7 +898,7 @@
           "ItemId": "ksi-rpl-trc",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-TRC: Testing Recovery Capabilities",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -969,16 +914,12 @@
           "ItemId": "ksi-svc-acm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-ACM: Automating Configuration Management",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "config_recorder_all_regions_enabled",
-        "ec2_instance_managed_by_ssm",
-        "ssm_managed_compliant_patching"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-svc-asm",
@@ -989,32 +930,35 @@
           "ItemId": "ksi-svc-asm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-ASM: Automating Secret Management",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "apigateway_restapi_cache_encrypted",
-        "cloudtrail_kms_encryption_enabled",
-        "dynamodb_accelerator_cluster_encryption_enabled",
-        "dynamodb_tables_kms_cmk_encryption_enabled",
-        "ec2_ebs_volume_encryption",
-        "ec2_ebs_default_encryption",
-        "efs_encryption_at_rest_enabled",
-        "eks_cluster_kms_cmk_encryption_in_secrets_enabled",
-        "elasticache_redis_cluster_auto_minor_version_upgrades",
-        "fsx_file_system_copy_tags_to_backups_enabled",
-        "kinesis_stream_encrypted_at_rest",
-        "kms_cmk_rotation_enabled",
+        "bigquery_dataset_cmk_encryption",
+        "bigquery_table_cmk_encryption",
+        "cloudsql_instance_mysql_local_infile_flag",
+        "cloudsql_instance_mysql_skip_show_database_flag",
+        "cloudsql_instance_postgres_enable_pgaudit_flag",
+        "cloudsql_instance_postgres_log_connections_flag",
+        "cloudsql_instance_postgres_log_disconnections_flag",
+        "cloudsql_instance_postgres_log_error_verbosity_flag",
+        "cloudsql_instance_postgres_log_min_duration_statement_flag",
+        "cloudsql_instance_postgres_log_min_error_statement_flag",
+        "cloudsql_instance_postgres_log_min_messages_flag",
+        "cloudsql_instance_postgres_log_statement_flag",
+        "cloudsql_instance_sqlserver_contained_database_authentication_flag",
+        "cloudsql_instance_sqlserver_cross_db_ownership_chaining_flag",
+        "cloudsql_instance_sqlserver_external_scripts_enabled_flag",
+        "cloudsql_instance_sqlserver_remote_access_flag",
+        "cloudsql_instance_sqlserver_trace_flag",
+        "cloudsql_instance_sqlserver_user_connections_flag",
+        "cloudsql_instance_sqlserver_user_options_flag",
+        "compute_instance_encryption_with_csek_enabled",
+        "dataproc_encrypted_with_cmks_disabled",
         "kms_key_not_publicly_accessible",
-        "rds_instance_storage_encrypted",
-        "rds_cluster_storage_encrypted",
-        "redshift_cluster_automatic_upgrades",
-        "s3_bucket_default_encryption",
-        "sagemaker_notebook_instance_encryption_enabled",
-        "sns_topics_kms_encryption_at_rest_enabled",
-        "sqs_queues_server_side_encryption_enabled"
+        "kms_key_rotation_enabled"
       ]
     },
     {
@@ -1026,25 +970,23 @@
           "ItemId": "ksi-svc-eis",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-EIS: Evaluating and Improving Security",
-          "Service": "aws",
-          "AssessmentStatus": "Automated",
-          "AutomationSource": "prowler"
+          "Service": "gcp",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
         }
       ],
-      "Checks": [
-        "trustedadvisor_premium_support_plan_subscribed"
-      ]
+      "Checks": []
     },
     {
       "Id": "ksi-svc-prr",
       "Name": "KSI-SVC-PRR: Preventing Residual Risk",
-      "Description": "Optional: Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
+      "Description": "Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-prr",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-PRR: Preventing Residual Risk",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -1054,13 +996,13 @@
     {
       "Id": "ksi-svc-rud",
       "Name": "KSI-SVC-RUD: Removing Unwanted Data",
-      "Description": "Optional: Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
+      "Description": "Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-rud",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-RUD: Removing Unwanted Data",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -1076,26 +1018,25 @@
           "ItemId": "ksi-svc-snt",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-SNT: Securing Network Traffic",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "elbv2_ssl_listeners",
-        "s3_bucket_secure_transport_policy"
+        "cloudsql_instance_ssl_connections"
       ]
     },
     {
       "Id": "ksi-svc-vcm",
       "Name": "KSI-SVC-VCM: Validating Communications",
-      "Description": "Optional: Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
+      "Description": "Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-vcm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-VCM: Validating Communications",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
         }
@@ -1111,13 +1052,15 @@
           "ItemId": "ksi-svc-vri",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-VRI: Validating Resource Integrity",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "acm_certificates_expiration_check"
+        "dns_dnssec_disabled",
+        "dns_rsasha1_in_use_to_key_sign_in_dnssec",
+        "dns_rsasha1_in_use_to_zone_sign_in_dnssec"
       ]
     },
     {
@@ -1129,17 +1072,14 @@
           "ItemId": "ksi-scr-mit",
           "Section": "KSI-SCR: Supply Chain Risk",
           "SubSection": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "ecr_registry_scan_images_on_push_enabled",
-        "ecr_repositories_lifecycle_policy_enabled",
-        "ecr_repositories_not_publicly_accessible",
-        "ecr_repositories_scan_vulnerabilities_in_latest_image",
-        "ecr_repositories_tag_immutability"
+        "artifacts_container_analysis_enabled",
+        "gcr_container_scanning_enabled"
       ]
     },
     {
@@ -1151,17 +1091,16 @@
           "ItemId": "ksi-scr-mon",
           "Section": "KSI-SCR: Supply Chain Risk",
           "SubSection": "KSI-SCR-MON: Monitoring Supply Chain Risk",
-          "Service": "aws",
+          "Service": "gcp",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "inspector2_active_findings_exist",
-        "inspector2_is_enabled",
-        "awslambda_function_using_supported_runtimes",
-        "ssm_managed_compliant_patching",
-        "guardduty_no_high_severity_findings"
+        "compute_public_address_shodan",
+        "cloudsql_instance_automated_backups",
+        "iam_sa_user_managed_key_rotate_90_days",
+        "iam_service_account_unused"
       ]
     }
   ]

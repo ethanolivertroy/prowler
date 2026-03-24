@@ -1,9 +1,9 @@
 {
-  "Framework": "FedRAMP-20x-KSI-Low",
-  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Low Impact Level FRMR-0.9.42",
+  "Framework": "FedRAMP-20x-KSI-Moderate",
+  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Moderate Impact Level FRMR-0.9.42",
   "Version": "FRMR-0.9.42",
   "Provider": "AWS",
-  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Low Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Low impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
+  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Moderate Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Moderate impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
   "Requirements": [
     {
       "Id": "ksi-afr-ads",
@@ -337,7 +337,7 @@
     {
       "Id": "ksi-cna-eis",
       "Name": "KSI-CNA-EIS: Enforcing Intended State",
-      "Description": "Optional: Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
+      "Description": "Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
       "Attributes": [
         {
           "ItemId": "ksi-cna-eis",
@@ -687,7 +687,7 @@
     {
       "Id": "ksi-mla-ala",
       "Name": "KSI-MLA-ALA: Authorizing Log Access",
-      "Description": "Optional: Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
+      "Description": "Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
       "Attributes": [
         {
           "ItemId": "ksi-mla-ala",
@@ -1038,7 +1038,7 @@
     {
       "Id": "ksi-svc-prr",
       "Name": "KSI-SVC-PRR: Preventing Residual Risk",
-      "Description": "Optional: Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
+      "Description": "Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-prr",
@@ -1054,7 +1054,7 @@
     {
       "Id": "ksi-svc-rud",
       "Name": "KSI-SVC-RUD: Removing Unwanted Data",
-      "Description": "Optional: Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
+      "Description": "Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-rud",
@@ -1089,7 +1089,7 @@
     {
       "Id": "ksi-svc-vcm",
       "Name": "KSI-SVC-VCM: Validating Communications",
-      "Description": "Optional: Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
+      "Description": "Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
       "Attributes": [
         {
           "ItemId": "ksi-svc-vcm",

@@ -1,97 +1,522 @@
 {
   "Framework": "FedRAMP-20x-KSI-Low",
-  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Low Impact Level v25.05C",
-  "Version": "25.05C",
-  "Provider": "Azure",
-  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Low Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x Phase One pilot requirements for Low impact systems.",
+  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Low Impact Level FRMR-0.9.42",
+  "Version": "FRMR-0.9.42",
+  "Provider": "AZURE",
+  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Low Impact Level represent core security indicators for cloud service providers, focusing on automation, continuous monitoring, and cloud-native security principles per FedRAMP 20x requirements for Low impact systems. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
   "Requirements": [
     {
-      "Id": "ksi-cmt",
-      "Name": "KSI-CMT: Change Management",
-      "Description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly",
+      "Id": "ksi-afr-ads",
+      "Name": "KSI-AFR-ADS: Authorization Data Sharing",
+      "Description": "Determine how authorization data will be shared with all necessary parties in alignment with the FedRAMP Authorization Data Sharing (ADS) process and persistently address all related requirements and recommendations.",
       "Attributes": [
         {
-          "ItemId": "ksi-cmt",
-          "Section": "Change Management",
-          "Service": "azure"
+          "ItemId": "ksi-afr-ads",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-ADS: Authorization Data Sharing",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-ccm",
+      "Name": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
+      "Description": "Maintain a plan and process for providing Ongoing Authorization Reports and Quarterly Reviews for all necessary parties in alignment with the FedRAMP Collaborative Continuous Monitoring (CCM) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-ccm",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-fsi",
+      "Name": "KSI-AFR-FSI: FedRAMP Security Inbox",
+      "Description": "Operate a secure inbox to receive critical communication from FedRAMP and other government entities in alignment with FedRAMP Security Inbox (FSI) requirements and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-fsi",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-FSI: FedRAMP Security Inbox",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-icp",
+      "Name": "KSI-AFR-ICP: Incident Communications Procedures",
+      "Description": "Integrate FedRAMP's Incident Communications Procedures (ICP) into incident response procedures and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-icp",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-ICP: Incident Communications Procedures",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-mas",
+      "Name": "KSI-AFR-MAS: Minimum Assessment Scope",
+      "Description": "Apply the FedRAMP Minimum Assessment Scope (MAS) to identify and document the scope of the cloud service offering to be assessed for FedRAMP authorization and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-mas",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-MAS: Minimum Assessment Scope",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-pva",
+      "Name": "KSI-AFR-PVA: Persistent Validation and Assessment",
+      "Description": "Persistently validate, assess, and report on the effectiveness and status of security decisions and policies that are implemented within the cloud service offering in alignment with the FedRAMP 20x Persistent Validation and Assessment (PVA) process, and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-pva",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-PVA: Persistent Validation and Assessment",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-scg",
+      "Name": "KSI-AFR-SCG: Secure Configuration Guide",
+      "Description": "Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Secure Configuration Guide (SCG) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-scg",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-SCG: Secure Configuration Guide",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-scn",
+      "Name": "KSI-AFR-SCN: Significant Change Notifications",
+      "Description": "Determine how significant changes will be tracked and how all necessary parties will be notified in alignment with the FedRAMP Significant Change Notifications (SCN) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-scn",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-SCN: Significant Change Notifications",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-ucm",
+      "Name": "KSI-AFR-UCM: Using Cryptographic Modules",
+      "Description": "Ensure that cryptographic modules used to protect potentially sensitive federal customer data are selected and used in alignment with the FedRAMP 20x Using Cryptographic Modules (UCM) guidance and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-ucm",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-UCM: Using Cryptographic Modules",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-vdr",
+      "Name": "KSI-AFR-VDR: Vulnerability Detection and Response",
+      "Description": "Document the vulnerability detection and vulnerability response methodology used within the cloud service offering in alignment with the FedRAMP Vulnerability Detection and Response (VDR) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-vdr",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-VDR: Vulnerability Detection and Response",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-det",
+      "Name": "KSI-CED-DET: Reviewing Development and Engineering Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to development and engineering staff that covers best practices for delivering secure software.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-det",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-DET: Reviewing Development and Engineering Training",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rgt",
+      "Name": "KSI-CED-RGT: Reviewing General Training",
+      "Description": "Persistently review the effectiveness of training given to all employees on policies, procedures, and security-related topics.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rgt",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RGT: Reviewing General Training",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rrt",
+      "Name": "KSI-CED-RRT: Reviewing Response and Recovery Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to staff involved with incident response or disaster recovery.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rrt",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RRT: Reviewing Response and Recovery Training",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rst",
+      "Name": "KSI-CED-RST: Reviewing Role-Specific Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to employees in high risk roles, including at least roles with privileged access.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rst",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RST: Reviewing Role-Specific Training",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cmt-lmc",
+      "Name": "KSI-CMT-LMC: Logging Changes",
+      "Description": "Log and monitor modifications to the cloud service offering.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-lmc",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-LMC: Logging Changes",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "monitor_activity_log_alert_cmk_delete",
-        "monitor_activity_log_alert_create_policy_assignment",
-        "monitor_activity_log_alert_create_update_delete_network_sg",
-        "monitor_activity_log_alert_create_update_delete_network_sg_rule",
-        "monitor_activity_log_alert_create_update_delete_sql_server_fw_rule",
-        "monitor_activity_log_alert_create_update_nsg",
-        "monitor_activity_log_alert_create_update_public_ip_address",
-        "monitor_activity_log_alert_create_update_security_solution",
-        "monitor_activity_log_alert_delete_nsg",
-        "monitor_activity_log_alert_delete_policy_assignment",
-        "monitor_activity_log_alert_delete_public_ip_address",
-        "monitor_activity_log_alert_delete_security_solution",
-        "monitor_log_profile_all_categories",
-        "monitor_log_profile_all_regions",
-        "vm_agent_installed",
-        "vm_antimalware_solution_installed",
-        "vm_endpoint_protection_installed",
-        "vm_guest_configuration_installed",
-        "vm_guest_configuration_with_no_managed_identity",
-        "vm_guest_configuration_with_user_identity"
+        "monitor_alert_create_policy_assignment",
+        "monitor_alert_create_update_nsg",
+        "monitor_alert_create_update_sqlserver_fr",
+        "monitor_alert_create_update_public_ip_address_rule",
+        "monitor_alert_create_update_security_solution",
+        "monitor_alert_delete_nsg",
+        "monitor_alert_delete_policy_assignment",
+        "monitor_alert_delete_public_ip_address_rule",
+        "monitor_alert_delete_security_solution",
+        "monitor_diagnostic_setting_with_appropriate_categories",
+        "monitor_diagnostic_settings_exists"
       ]
     },
     {
-      "Id": "ksi-cna",
-      "Name": "KSI-CNA: Cloud Native Architecture",
-      "Description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system",
+      "Id": "ksi-cmt-rmv",
+      "Name": "KSI-CMT-RMV: Redeploying vs Modifying",
+      "Description": "Execute changes to machine-based information resources through redeployment of version controlled immutable resources rather than direct modification wherever reasonable.",
       "Attributes": [
         {
-          "ItemId": "ksi-cna",
-          "Section": "Cloud Native Architecture",
-          "Service": "azure"
+          "ItemId": "ksi-cmt-rmv",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-RMV: Redeploying vs Modifying",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_assessments_vm_endpoint_protection_installed"
+      ]
+    },
+    {
+      "Id": "ksi-cmt-rvp",
+      "Name": "KSI-CMT-RVP: Reviewing Change Procedures",
+      "Description": "Persistently review the effectiveness of documented change management procedures.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-rvp",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-RVP: Reviewing Change Procedures",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cmt-vtd",
+      "Name": "KSI-CMT-VTD: Validating Throughout Deployment",
+      "Description": "Automate persistent testing and validation of changes throughout deployment.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-vtd",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-VTD: Validating Throughout Deployment",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_assessments_vm_endpoint_protection_installed"
+      ]
+    },
+    {
+      "Id": "ksi-cna-dfp",
+      "Name": "KSI-CNA-DFP: Defining Functionality and Privileges",
+      "Description": "Strictly define the functionality and privileges for infrastructure and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-dfp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-DFP: Defining Functionality and Privileges",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "containerregistry_uses_private_link"
+      ]
+    },
+    {
+      "Id": "ksi-cna-eis",
+      "Name": "KSI-CNA-EIS: Enforcing Intended State",
+      "Description": "Optional: Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-eis",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-EIS: Enforcing Intended State",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-ibp",
+      "Name": "KSI-CNA-IBP: Implementing Best Practices",
+      "Description": "Persistently ensure cloud-native machine-based information resources are implemented based on the host provider's best practices and documented guidance.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-ibp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-IBP: Implementing Best Practices",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "app_function_vnet_integration_enabled",
+        "cosmosdb_account_use_private_endpoints",
+        "cosmosdb_account_firewall_use_selected_networks",
+        "databricks_workspace_vnet_injection_enabled",
+        "keyvault_access_only_through_private_endpoints",
+        "keyvault_private_endpoints"
+      ]
+    },
+    {
+      "Id": "ksi-cna-mat",
+      "Name": "KSI-CNA-MAT: Minimizing Attack Surface",
+      "Description": "Persistently ensure machine-based information resources have a minimal attack surface and that lateral movement is minimized if compromised.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-mat",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-MAT: Minimizing Attack Surface",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
         "aks_clusters_created_with_private_nodes",
         "aks_clusters_public_access_disabled",
-        "aks_network_policy_enabled",
-        "app_function_vnet_integration_enabled",
         "app_function_not_publicly_accessible",
         "containerregistry_not_publicly_accessible",
-        "containerregistry_uses_private_link",
-        "cosmosdb_account_use_private_endpoints",
-        "cosmosdb_account_firewall_use_selected_networks",
-        "databricks_workspace_vnet_injection_enabled",
-        "keyvault_access_only_through_private_endpoints",
-        "keyvault_private_endpoints",
-        "network_bastion_host_exists",
-        "network_flow_logs_enabled",
-        "network_security_group_not_empty",
-        "network_sg_ssh_access_restricted",
-        "network_sg_rdp_access_restricted",
-        "network_sg_open_all_ports_to_any_source",
-        "network_watcher_enabled",
-        "postgresql_flexible_server_public_network_access_disabled",
-        "sqlserver_public_network_access_disabled",
-        "storage_default_network_access_rule_set_to_deny",
-        "vm_availability_zones_enabled",
-        "vm_availability_set_deployed"
+        "postgresql_flexible_server_allow_access_services_disabled",
+        "sqlserver_unrestricted_inbound_access",
+        "storage_default_network_access_rule_is_denied"
       ]
     },
     {
-      "Id": "ksi-iam",
-      "Name": "KSI-IAM: Identity and Access Management",
-      "Description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles",
+      "Id": "ksi-cna-ofa",
+      "Name": "KSI-CNA-OFA: Optimizing for Availability",
+      "Description": "Appropriately optimize machine-based information resources for high availability and rapid recovery.",
       "Attributes": [
         {
-          "ItemId": "ksi-iam",
-          "Section": "Identity and Access Management",
-          "Service": "azure"
+          "ItemId": "ksi-cna-ofa",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-OFA: Optimizing for Availability",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "entra_conditional_access_policy_require_mfa_for_management_api",
-        "entra_global_admin_in_less_than_five_users",
-        "entra_non_privileged_user_has_mfa",
+        "vm_backup_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-cna-rnt",
+      "Name": "KSI-CNA-RNT: Restricting Network Traffic",
+      "Description": "Persistently ensure all machine-based information resources are configured to limit inbound and outbound network traffic.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-rnt",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-RNT: Restricting Network Traffic",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "network_http_internet_access_restricted",
+        "network_ssh_internet_access_restricted",
+        "network_rdp_internet_access_restricted",
+        "network_udp_internet_access_restricted"
+      ]
+    },
+    {
+      "Id": "ksi-cna-rvp",
+      "Name": "KSI-CNA-RVP: Reviewing Protections",
+      "Description": "Persistently review the effectiveness of protection against denial of service attacks and other unwanted activity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-rvp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-RVP: Reviewing Protections",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-uln",
+      "Name": "KSI-CNA-ULN: Using Logical Networking",
+      "Description": "Use logical networking and related capabilities to enforce traffic flow controls.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-uln",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-ULN: Using Logical Networking",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "aks_network_policy_enabled",
+        "network_bastion_host_exists",
+        "network_flow_log_captured_sent",
+        "network_watcher_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-iam-aam",
+      "Name": "KSI-IAM-AAM: Automating Account Management",
+      "Description": "Securely manage the lifecycle and privileges of all accounts, roles, and groups, using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-aam",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-AAM: Automating Account Management",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "app_ensure_auth_is_set_up"
+      ]
+    },
+    {
+      "Id": "ksi-iam-apm",
+      "Name": "KSI-IAM-APM: Adopting Passwordless Methods",
+      "Description": "Use secure passwordless methods for user authentication and authorization when feasible, otherwise enforce strong passwords with MFA for authentication.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-apm",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-APM: Adopting Passwordless Methods",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_trusted_named_locations_exists"
+      ]
+    },
+    {
+      "Id": "ksi-iam-elp",
+      "Name": "KSI-IAM-ELP: Ensuring Least Privilege",
+      "Description": "Persistently ensure that identity and access management employs measures to ensure each user or device can only access the resources they need.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-elp",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-ELP: Ensuring Least Privilege",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
         "entra_policy_default_users_cannot_create_security_groups",
         "entra_policy_ensure_default_user_cannot_create_apps",
         "entra_policy_ensure_default_user_cannot_create_tenants",
@@ -99,40 +524,106 @@
         "entra_policy_guest_users_access_restrictions",
         "entra_policy_restricts_user_consent_for_apps",
         "entra_policy_user_consent_for_verified_apps",
-        "entra_privileged_user_has_mfa",
-        "entra_security_defaults_enabled",
-        "entra_trusted_named_locations_exists",
-        "entra_user_with_vm_access_has_mfa",
         "entra_users_cannot_create_microsoft_365_groups",
-        "iam_custom_role_has_permissions_to_administer_resource_locks",
-        "iam_role_user_access_admin_restricted",
-        "iam_subscription_roles_owner_custom_not_created",
-        "keyvault_rbac_enabled",
-        "app_function_identity_is_configured",
-        "app_function_identity_without_admin_privileges",
-        "app_ensure_auth_is_set_up",
-        "app_register_with_identity",
-        "vm_managed_identity_enabled"
+        "keyvault_rbac_enabled"
       ]
     },
     {
-      "Id": "ksi-inr",
-      "Name": "KSI-INR: Incident Response",
-      "Description": "A secure cloud service offering will respond to incidents according to FedRAMP requirements and cloud service provider policies",
+      "Id": "ksi-iam-jit",
+      "Name": "KSI-IAM-JIT: Authorizing Just-in-Time",
+      "Description": "Use a least-privileged, role and attribute-based, and just-in-time security authorization model for all user and non-user accounts and services.",
       "Attributes": [
         {
-          "ItemId": "ksi-inr",
-          "Section": "Incident Response",
-          "Service": "azure"
+          "ItemId": "ksi-iam-jit",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-JIT: Authorizing Just-in-Time",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
-        "defender_attack_path_notifications_properly_configured",
-        "defender_ensure_notify_alerts_severity_is_high",
-        "defender_ensure_notify_emails_to_owners",
-        "defender_additional_email_configured_with_a_security_contact",
-        "defender_container_images_resolved_vulnerabilities",
-        "defender_container_images_scan_enabled",
+        "entra_global_admin_in_less_than_five_users",
+        "iam_custom_role_has_permissions_to_administer_resource_locks",
+        "iam_role_user_access_admin_restricted",
+        "iam_subscription_roles_owner_custom_not_created",
+        "app_function_identity_without_admin_privileges"
+      ]
+    },
+    {
+      "Id": "ksi-iam-mfa",
+      "Name": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
+      "Description": "Enforce multi-factor authentication (MFA) using methods that are difficult to intercept or impersonate (phishing-resistant MFA) for all user authentication.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-mfa",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_conditional_access_policy_require_mfa_for_management_api",
+        "entra_non_privileged_user_has_mfa",
+        "entra_privileged_user_has_mfa",
+        "entra_security_defaults_enabled",
+        "entra_user_with_vm_access_has_mfa"
+      ]
+    },
+    {
+      "Id": "ksi-iam-snu",
+      "Name": "KSI-IAM-SNU: Securing Non-User Authentication",
+      "Description": "Enforce appropriately secure authentication methods for non-user accounts and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-snu",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-SNU: Securing Non-User Authentication",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "app_function_identity_is_configured",
+        "app_register_with_identity"
+      ]
+    },
+    {
+      "Id": "ksi-iam-sus",
+      "Name": "KSI-IAM-SUS: Responding to Suspicious Activity",
+      "Description": "Automatically disable or otherwise secure accounts with privileged access in response to suspicious activity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-sus",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-SUS: Responding to Suspicious Activity",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_ensure_wdatp_is_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-inr-aar",
+      "Name": "KSI-INR-AAR: Generating After Action Reports",
+      "Description": "Generate incident after action reports and persistently incorporate lessons learned.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-aar",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-AAR: Generating After Action Reports",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
         "defender_ensure_defender_for_app_services_is_on",
         "defender_ensure_defender_for_arm_is_on",
         "defender_ensure_defender_for_azure_sql_databases_is_on",
@@ -145,158 +636,497 @@
         "defender_ensure_defender_for_server_is_on",
         "defender_ensure_defender_for_sql_servers_is_on",
         "defender_ensure_defender_for_storage_is_on",
-        "defender_ensure_iot_hub_defender_is_on",
-        "defender_ensure_wdatp_is_enabled"
+        "defender_ensure_iot_hub_defender_is_on"
       ]
     },
     {
-      "Id": "ksi-mla",
-      "Name": "KSI-MLA: Monitoring, Logging, and Auditing",
-      "Description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes",
+      "Id": "ksi-inr-rir",
+      "Name": "KSI-INR-RIR: Reviewing Incident Response Procedures",
+      "Description": "Persistently review the effectiveness of documented incident response procedures.",
       "Attributes": [
         {
-          "ItemId": "ksi-mla",
-          "Section": "Monitoring, Logging, and Auditing",
-          "Service": "azure"
+          "ItemId": "ksi-inr-rir",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-RIR: Reviewing Incident Response Procedures",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_attack_path_notifications_properly_configured",
+        "defender_ensure_notify_alerts_severity_is_high",
+        "defender_ensure_notify_emails_to_owners",
+        "defender_additional_email_configured_with_a_security_contact"
+      ]
+    },
+    {
+      "Id": "ksi-inr-rpi",
+      "Name": "KSI-INR-RPI: Reviewing Past Incidents",
+      "Description": "Persistently review past incidents for patterns or vulnerabilities.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-rpi",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-RPI: Reviewing Past Incidents",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_container_images_resolved_vulnerabilities",
+        "defender_container_images_scan_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-mla-ala",
+      "Name": "KSI-MLA-ALA: Authorizing Log Access",
+      "Description": "Optional: Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-ala",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-ALA: Authorizing Log Access",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-mla-evc",
+      "Name": "KSI-MLA-EVC: Evaluating Configurations",
+      "Description": "Persistently evaluate and test the configuration of machine-based information resources, especially infrastructure as code.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-evc",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-EVC: Evaluating Configurations",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "monitor_diagnostic_setting_with_appropriate_categories"
+      ]
+    },
+    {
+      "Id": "ksi-mla-let",
+      "Name": "KSI-MLA-LET: Logging Event Types",
+      "Description": "Maintain a list of information resources and event types that will be logged, monitored, and audited, then do so.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-let",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-LET: Logging Event Types",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_auto_provisioning_log_analytics_agent_vms_on",
+        "defender_auto_provisioning_vulnerabilty_assessments_machines_on",
+        "monitor_diagnostic_settings_exists",
+        "monitor_diagnostic_setting_with_appropriate_categories",
+        "network_watcher_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-mla-osm",
+      "Name": "KSI-MLA-OSM: Operating SIEM Capability",
+      "Description": "Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistent logging of events, activities, and changes.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-osm",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-OSM: Operating SIEM Capability",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "keyvault_logging_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-mla-rvl",
+      "Name": "KSI-MLA-RVL: Reviewing Logs",
+      "Description": "Persistently review and audit logs.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-rvl",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-RVL: Reviewing Logs",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
         "app_function_application_insights_enabled",
         "app_http_logs_enabled",
         "appinsights_ensure_is_configured",
-        "defender_auto_provisioning_log_analytics_agent_vms_on",
-        "defender_auto_provisioning_vulnerabilty_assessments_machines_on",
-        "keyvault_logging_enabled",
-        "monitor_activity_log_retention_policy_set",
-        "monitor_diagnostic_logs_categories",
-        "monitor_diagnostic_setting_deployed_for_all_resources",
-        "monitor_diagnostic_settings_captures_proper_categories",
-        "monitor_log_profile_all_categories",
-        "monitor_log_profile_all_regions",
-        "monitor_log_profile_captures_all_activities",
-        "monitor_log_profile_retention_policy_at_least_365",
-        "network_flow_logs_enabled",
-        "network_flow_log_retention_policy_at_least_90",
-        "network_watcher_enabled",
-        "postgresql_flexible_server_audit_logs_enabled",
-        "postgresql_flexible_server_log_checkpoints_enabled",
-        "postgresql_flexible_server_log_connections_enabled",
-        "postgresql_flexible_server_log_disconnections_enabled",
-        "sqlserver_auditing_on",
+        "network_flow_log_captured_sent",
+        "network_flow_log_more_than_90_days",
+        "postgresql_flexible_server_log_connections_on",
+        "postgresql_flexible_server_log_checkpoints_on",
+        "postgresql_flexible_server_log_connections_on",
+        "postgresql_flexible_server_log_disconnections_on",
+        "sqlserver_auditing_enabled",
+        "sqlserver_auditing_retention_90_days"
+      ]
+    },
+    {
+      "Id": "ksi-piy-giv",
+      "Name": "KSI-PIY-GIV: Generating Inventories",
+      "Description": "Use authoritative sources to automatically generate real-time inventories of all information resources when needed.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-giv",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-GIV: Generating Inventories",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_assessments_vm_endpoint_protection_installed"
+      ]
+    },
+    {
+      "Id": "ksi-piy-res",
+      "Name": "KSI-PIY-RES: Reviewing Executive Support",
+      "Description": "Persistently review executive support for achieving the organization's security objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-res",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RES: Reviewing Executive Support",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-piy-ris",
+      "Name": "KSI-PIY-RIS: Reviewing Investments in Security",
+      "Description": "Persistently review the effectiveness of the organization's investments in achieving security objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-ris",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RIS: Reviewing Investments in Security",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_ensure_defender_for_containers_is_on",
+        "defender_ensure_defender_for_app_services_is_on",
+        "defender_ensure_defender_for_azure_sql_databases_is_on",
+        "defender_ensure_defender_for_keyvault_is_on",
+        "defender_ensure_defender_for_server_is_on",
+        "defender_ensure_defender_for_sql_servers_is_on",
+        "defender_ensure_defender_for_storage_is_on",
+        "policy_ensure_asc_enforcement_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-piy-rsd",
+      "Name": "KSI-PIY-RSD: Reviewing Security in the SDLC",
+      "Description": "Persistently review the effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-rsd",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RSD: Reviewing Security in the SDLC",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-piy-rvd",
+      "Name": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
+      "Description": "Persistently review the effectiveness of the provider's vulnerability disclosure program.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-rvd",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-abo",
+      "Name": "KSI-RPL-ABO: Aligning Backups with Objectives",
+      "Description": "Persistently review the alignment of machine-based information resource backups with defined recovery objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-abo",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-ABO: Aligning Backups with Objectives",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "postgresql_flexible_server_log_retention_days_greater_3",
         "sqlserver_auditing_retention_90_days",
-        "storage_storage_account_logging_queue_read_write_delete_enabled"
-      ]
-    },
-    {
-      "Id": "ksi-piy",
-      "Name": "KSI-PIY: Policy and Inventory",
-      "Description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured",
-      "Attributes": [
-        {
-          "ItemId": "ksi-piy",
-          "Section": "Policy and Inventory",
-          "Service": "azure"
-        }
-      ],
-      "Checks": [
-        "policy_ensure_asc_for_aks_is_enabled",
-        "policy_ensure_asc_for_app_services_is_enabled",
-        "policy_ensure_asc_for_azure_sql_is_enabled",
-        "policy_ensure_asc_for_key_vault_is_enabled",
-        "policy_ensure_asc_for_servers_is_enabled",
-        "policy_ensure_asc_for_sql_servers_is_enabled",
-        "policy_ensure_asc_for_storage_is_enabled",
-        "policy_ensure_allowed_extensions_are_installed",
-        "policy_ensure_allowed_locations_is_enabled",
-        "policy_ensure_allowed_resource_types_is_enabled",
-        "policy_ensure_audit_diagnostic_log_enabled_for_all_services",
-        "policy_ensure_not_allowed_resource_types_is_enabled",
-        "vm_guest_configuration_installed",
-        "vm_guest_configuration_with_no_managed_identity",
-        "vm_guest_configuration_with_user_identity"
-      ]
-    },
-    {
-      "Id": "ksi-rpl",
-      "Name": "KSI-RPL: Recovery Planning",
-      "Description": "A secure cloud service offering will define, maintain, and test incident response plan(s) and recovery capabilities to ensure minimal service disruption and data loss",
-      "Attributes": [
-        {
-          "ItemId": "ksi-rpl",
-          "Section": "Recovery Planning",
-          "Service": "azure"
-        }
-      ],
-      "Checks": [
-        "mysql_flexible_server_geo_redundant_backup_enabled",
-        "mysql_flexible_server_retain_backup_35_days",
-        "postgresql_flexible_server_geo_redundant_backup_enabled",
-        "postgresql_flexible_server_backup_retention_period_35_days",
-        "recovery_services_vault_uses_private_link",
-        "recovery_services_vault_uses_private_link_for_backup",
-        "sqlserver_database_long_term_geo_redundant_backup",
-        "sqlserver_database_retention_policy_exceeds_90_days",
-        "storage_default_storage_account_encrypted_with_cmk_not_stored_in_storage_account",
         "storage_geo_redundant_enabled",
-        "storage_infrastructure_encryption_is_enabled",
-        "storage_soft_delete_containers_enabled",
-        "storage_soft_delete_enabled",
+        "storage_ensure_file_shares_soft_delete_is_enabled",
+        "storage_ensure_soft_delete_is_enabled",
         "vm_backup_enabled",
         "vm_sufficient_daily_backup_retention_period"
       ]
     },
     {
-      "Id": "ksi-svc",
-      "Name": "KSI-SVC: Service Configuration",
-      "Description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources",
+      "Id": "ksi-rpl-arp",
+      "Name": "KSI-RPL-ARP: Aligning Recovery Plan",
+      "Description": "Persistently review the alignment of recovery plans with defined recovery objectives.",
       "Attributes": [
         {
-          "ItemId": "ksi-svc",
-          "Section": "Service Configuration",
-          "Service": "azure"
+          "ItemId": "ksi-rpl-arp",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-ARP: Aligning Recovery Plan",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-rro",
+      "Name": "KSI-RPL-RRO: Reviewing Recovery Objectives",
+      "Description": "Persistently review desired Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO).",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-rro",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-RRO: Reviewing Recovery Objectives",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-trc",
+      "Name": "KSI-RPL-TRC: Testing Recovery Capabilities",
+      "Description": "Persistently test the capability to recover from incidents and contingencies, including alignment with defined recovery objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-trc",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-TRC: Testing Recovery Capabilities",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-acm",
+      "Name": "KSI-SVC-ACM: Automating Configuration Management",
+      "Description": "Manage configuration of machine-based information resources using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-acm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-ACM: Automating Configuration Management",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "containerregistry_admin_user_disabled"
+      ]
+    },
+    {
+      "Id": "ksi-svc-asm",
+      "Name": "KSI-SVC-ASM: Automating Secret Management",
+      "Description": "Automate management, protection, and regular rotation of digital keys, certificates, and other secrets.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-asm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-ASM: Automating Secret Management",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "cosmosdb_account_use_aad_and_rbac",
+        "databricks_workspace_cmk_encryption_enabled",
+        "keyvault_key_expiration_set_in_non_rbac",
+        "keyvault_key_rotation_enabled",
+        "keyvault_non_rbac_secret_expiration_set",
+        "sqlserver_microsoft_defender_enabled",
+        "sqlserver_tde_encrypted_with_cmk",
+        "sqlserver_tde_encryption_enabled",
+        "storage_ensure_encryption_with_customer_managed_keys",
+        "storage_infrastructure_encryption_is_enabled",
+        "vm_ensure_attached_disks_encrypted_with_cmk"
+      ]
+    },
+    {
+      "Id": "ksi-svc-eis",
+      "Name": "KSI-SVC-EIS: Evaluating and Improving Security",
+      "Description": "Implement improvements based on persistent evaluation of information resources for opportunities to improve security.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-eis",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-EIS: Evaluating and Improving Security",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-prr",
+      "Name": "KSI-SVC-PRR: Preventing Residual Risk",
+      "Description": "Optional: Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-prr",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-PRR: Preventing Residual Risk",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-rud",
+      "Name": "KSI-SVC-RUD: Removing Unwanted Data",
+      "Description": "Optional: Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-rud",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-RUD: Removing Unwanted Data",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-snt",
+      "Name": "KSI-SVC-SNT: Securing Network Traffic",
+      "Description": "Encrypt or otherwise secure network traffic.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-snt",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-SNT: Securing Network Traffic",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
         "app_client_certificates_on",
         "app_ensure_http_is_redirected_to_https",
         "app_minimum_tls_version_12",
-        "containerregistry_admin_user_disabled",
-        "cosmosdb_account_use_aad_and_rbac",
-        "databricks_workspace_cmk_encryption_enabled",
-        "keyvault_key_expiration_set_in_non_rbac",
-        "keyvault_key_rotation_enabled",
-        "keyvault_non_rbac_secret_expiration_set",
-        "mysql_flexible_server_encrypted_at_rest_using_cmk",
-        "mysql_flexible_server_encrypted_in_transit",
-        "mysql_flexible_server_minimum_tls_version_tls12",
-        "postgresql_flexible_server_encrypted_at_rest_using_cmk",
-        "postgresql_flexible_server_encrypted_in_transit",
-        "postgresql_flexible_server_minimum_tls_version_tls12",
-        "sqlserver_advanced_data_security_enabled",
-        "sqlserver_database_encryption_with_cmk",
-        "sqlserver_database_tde_encryption_enabled",
-        "sqlserver_minimum_tls_version_12",
-        "storage_secure_transfer_required_enabled",
-        "storage_default_storage_account_encrypted_with_cmk",
-        "storage_infrastructure_encryption_is_enabled",
-        "storage_storage_account_encrypted_with_cmk",
-        "storage_storage_account_minimum_tls_version_tls12",
-        "vm_encrypted_at_host",
-        "vm_data_disks_encrypted_with_cmk",
-        "vm_managed_disks_encrypted_with_cmk",
-        "vm_os_disk_are_encrypted_with_cmk",
-        "vm_temporary_disks_and_cache_encrypted"
+        "mysql_flexible_server_ssl_connection_enabled",
+        "mysql_flexible_server_minimum_tls_version_12",
+        "postgresql_flexible_server_enforce_ssl_enabled",
+        "sqlserver_recommended_minimal_tls_version",
+        "storage_secure_transfer_required_is_enabled",
+        "storage_ensure_minimum_tls_version_12"
       ]
     },
     {
-      "Id": "ksi-tpr",
-      "Name": "KSI-TPR: Third-Party Information Resources",
-      "Description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third-party information resources",
+      "Id": "ksi-svc-vcm",
+      "Name": "KSI-SVC-VCM: Validating Communications",
+      "Description": "Optional: Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
       "Attributes": [
         {
-          "ItemId": "ksi-tpr",
-          "Section": "Third-Party Information Resources",
-          "Service": "azure"
+          "ItemId": "ksi-svc-vcm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-VCM: Validating Communications",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-vri",
+      "Name": "KSI-SVC-VRI: Validating Resource Integrity",
+      "Description": "Use cryptographic methods to validate the integrity of machine-based information resources.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-vri",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-VRI: Validating Resource Integrity",
+          "Service": "azure",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-scr-mit",
+      "Name": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
+      "Description": "Persistently identify, review, and mitigate potential supply chain risks.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-scr-mit",
+          "Section": "KSI-SCR: Supply Chain Risk",
+          "SubSection": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_container_images_resolved_vulnerabilities",
+        "defender_container_images_scan_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-scr-mon",
+      "Name": "KSI-SCR-MON: Monitoring Supply Chain Risk",
+      "Description": "Automatically monitor third party software information resources for upstream vulnerabilities using mechanisms that may include contractual notification requirements or active monitoring services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-scr-mon",
+          "Section": "KSI-SCR: Supply Chain Risk",
+          "SubSection": "KSI-SCR-MON: Monitoring Supply Chain Risk",
+          "Service": "azure",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
         }
       ],
       "Checks": [
@@ -304,54 +1134,8 @@
         "app_ensure_php_version_is_latest",
         "app_ensure_python_version_is_latest",
         "app_function_latest_runtime_version",
-        "defender_container_images_resolved_vulnerabilities",
-        "defender_container_images_scan_enabled",
         "defender_ensure_system_updates_are_applied",
-        "vm_agent_installed",
-        "vm_antimalware_solution_installed",
-        "vm_endpoint_protection_installed",
-        "vm_os_update_system_updates",
-        "vm_security_patch_assessment"
-      ]
-    },
-    {
-      "Id": "ksi-iam-07",
-      "Name": "KSI-IAM-07: Account Lifecycle Management",
-      "Description": "Securely manage the lifecycle and privileges of all accounts, roles, and groups",
-      "Attributes": [
-        {
-          "ItemId": "ksi-iam-07",
-          "Section": "Identity and Access Management",
-          "Service": "azure"
-        }
-      ],
-      "Checks": [
-        "entra_non_privileged_user_has_mfa",
-        "entra_privileged_user_has_mfa",
-        "entra_user_with_vm_access_has_mfa",
-        "iam_custom_role_has_permissions_to_administer_resource_locks",
-        "iam_role_user_access_admin_restricted",
-        "app_function_identity_is_configured",
-        "vm_managed_identity_enabled"
-      ]
-    },
-    {
-      "Id": "ksi-mla-07",
-      "Name": "KSI-MLA-07: Monitoring and Logging Inventory",
-      "Description": "Maintain a list of information resources and event types that will be monitored, logged, and audited",
-      "Attributes": [
-        {
-          "ItemId": "ksi-mla-07",
-          "Section": "Monitoring, Logging, and Auditing",
-          "Service": "azure"
-        }
-      ],
-      "Checks": [
-        "monitor_log_profile_all_categories",
-        "monitor_log_profile_all_regions",
-        "monitor_log_profile_captures_all_activities",
-        "monitor_diagnostic_setting_deployed_for_all_resources",
-        "network_watcher_enabled"
+        "defender_assessments_vm_endpoint_protection_installed"
       ]
     }
   ]
