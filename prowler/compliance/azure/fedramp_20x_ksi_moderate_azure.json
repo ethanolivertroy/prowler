@@ -14,6 +14,7 @@
           "ItemId": "ksi-afr-ads",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-ADS: Authorization Data Sharing",
+          "SubGroup": "AC-3, AC-4, AU-2, AU-3, AU-6, CA-2, IR-4, RA-5, SC-8",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -30,6 +31,7 @@
           "ItemId": "ksi-afr-ccm",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -46,6 +48,7 @@
           "ItemId": "ksi-afr-fsi",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-FSI: FedRAMP Security Inbox",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -62,6 +65,7 @@
           "ItemId": "ksi-afr-icp",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-ICP: Incident Communications Procedures",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -78,6 +82,7 @@
           "ItemId": "ksi-afr-mas",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-MAS: Minimum Assessment Scope",
+          "SubGroup": "AC-1, AC-21, AT-1, AU-1, CA-1, CM-1, CP-1, CP-2.1, CP-2.8, CP-4.1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PL-2, PL-4, PL-4.1, PS-1, RA-1, RA-9, SA-1, SC-1, SI-1, SR-1, SR-11, SR-2, SR-3",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -94,6 +99,7 @@
           "ItemId": "ksi-afr-pva",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-PVA: Persistent Validation and Assessment",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -110,6 +116,7 @@
           "ItemId": "ksi-afr-scg",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-SCG: Secure Configuration Guide",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -126,6 +133,7 @@
           "ItemId": "ksi-afr-scn",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-SCN: Significant Change Notifications",
+          "SubGroup": "AU-5, CA-5, CA-7, CA-7.4, CM-3.4, CM-4, CM-7.1, RA-5, RA-5.2, SA-22, SI-10, SI-11, SI-2, SI-2.2, SI-3, SI-5, SI-7.7",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -142,6 +150,7 @@
           "ItemId": "ksi-afr-ucm",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-UCM: Using Cryptographic Modules",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -158,6 +167,7 @@
           "ItemId": "ksi-afr-vdr",
           "Section": "KSI-AFR: Authorization by FedRAMP",
           "SubSection": "KSI-AFR-VDR: Vulnerability Detection and Response",
+          "SubGroup": "CA-2, CA-7, CA-7.4, CA-7.6, IR-1, IR-4, IR-4.1, IR-5, IR-5.1, IR-6, IR-6.1, IR-6.2, PM-3, PM-31, PM-5, RA-10, RA-2, RA-2.1, RA-3, RA-3.3, RA-5, RA-5.11, RA-5.2, RA-5.3, RA-5.4, RA-5.5, RA-5.6, RA-5.7, RA-7, RA-9, SI-2, SI-2.1, SI-2.2, SI-2.4, SI-2.5, SI-3, SI-3.1, SI-3.2, SI-4, SI-4.2, SI-4.3, SI-4.7",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -174,6 +184,7 @@
           "ItemId": "ksi-ced-det",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-DET: Reviewing Development and Engineering Training",
+          "SubGroup": "CP-3, IR-2, PS-6",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -190,6 +201,7 @@
           "ItemId": "ksi-ced-rgt",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RGT: Reviewing General Training",
+          "SubGroup": "AT-2, AT-2.2, AT-2.3, AT-3.5, AT-4, IR-2.3",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -206,6 +218,7 @@
           "ItemId": "ksi-ced-rrt",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RRT: Reviewing Response and Recovery Training",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -222,6 +235,7 @@
           "ItemId": "ksi-ced-rst",
           "Section": "KSI-CED: Cybersecurity Education",
           "SubSection": "KSI-CED-RST: Reviewing Role-Specific Training",
+          "SubGroup": "AT-2, AT-2.3, AT-3, SR-11.1",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -238,6 +252,7 @@
           "ItemId": "ksi-cmt-lmc",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-LMC: Logging Changes",
+          "SubGroup": "AU-2, CM-3, CM-3.2, CM-4.2, CM-6, CM-8.3, MA-2",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -266,6 +281,7 @@
           "ItemId": "ksi-cmt-rmv",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-RMV: Redeploying vs Modifying",
+          "SubGroup": "CM-2, CM-3, CM-5, CM-6, CM-7, CM-8.1, SI-3",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -284,6 +300,7 @@
           "ItemId": "ksi-cmt-rvp",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-RVP: Reviewing Change Procedures",
+          "SubGroup": "CM-3, CM-3.2, CM-3.4, CM-5, CM-7.1, CM-9",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -300,6 +317,7 @@
           "ItemId": "ksi-cmt-vtd",
           "Section": "KSI-CMT: Change Management",
           "SubSection": "KSI-CMT-VTD: Validating Throughout Deployment",
+          "SubGroup": "CM-3, CM-3.2, CM-4.2, SI-2",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -318,6 +336,7 @@
           "ItemId": "ksi-cna-dfp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-DFP: Defining Functionality and Privileges",
+          "SubGroup": "CM-2, SI-3",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -336,6 +355,7 @@
           "ItemId": "ksi-cna-eis",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-EIS: Enforcing Intended State",
+          "SubGroup": "CA-2.1, CA-7.1",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -352,6 +372,7 @@
           "ItemId": "ksi-cna-ibp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-IBP: Implementing Best Practices",
+          "SubGroup": "AC-17.3, CM-2, PL-10",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -375,6 +396,7 @@
           "ItemId": "ksi-cna-mat",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-MAT: Minimizing Attack Surface",
+          "SubGroup": "AC-17.3, AC-18.1, AC-18.3, AC-20.1, CA-9, SC-10, SC-7.3, SC-7.4, SC-7.5, SC-7.8, SC-8, SI-10, SI-11, SI-16",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -399,6 +421,7 @@
           "ItemId": "ksi-cna-ofa",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-OFA: Optimizing for Availability",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -417,6 +440,7 @@
           "ItemId": "ksi-cna-rnt",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-RNT: Restricting Network Traffic",
+          "SubGroup": "AC-17.3, CA-9, CM-7.1, SC-7.5, SI-8",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -438,6 +462,7 @@
           "ItemId": "ksi-cna-rvp",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-RVP: Reviewing Protections",
+          "SubGroup": "SC-5, SI-8, SI-8.2",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -454,6 +479,7 @@
           "ItemId": "ksi-cna-uln",
           "Section": "KSI-CNA: Cloud Native Architecture",
           "SubSection": "KSI-CNA-ULN: Using Logical Networking",
+          "SubGroup": "AC-12, AC-17.3, CA-9, SC-10, SC-4, SC-7, SC-7.7, SC-8",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -475,6 +501,7 @@
           "ItemId": "ksi-iam-aam",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-AAM: Automating Account Management",
+          "SubGroup": "AC-2.13, AC-2.2, AC-2.3, AC-6.7, IA-12, IA-12.2, IA-12.3, IA-12.5, IA-4.4",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -493,6 +520,7 @@
           "ItemId": "ksi-iam-apm",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-APM: Adopting Passwordless Methods",
+          "SubGroup": "AC-2, AC-3, IA-2.1, IA-2.2, IA-2.8, IA-5.1, IA-5.2, IA-5.6, IA-6",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -511,6 +539,7 @@
           "ItemId": "ksi-iam-elp",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-ELP: Ensuring Least Privilege",
+          "SubGroup": "AC-12, AC-14, AC-17, AC-17.1, AC-17.2, AC-17.3, AC-2.5, AC-2.6, AC-20, AC-20.1, AC-3, AC-4, AC-6, CM-2.7, CM-9, IA-11, IA-2, IA-3, IA-4, IA-4.4, IA-5.2, IA-5.6, PS-2, PS-3, PS-4, PS-5, PS-6, SC-20, SC-21, SC-22, SC-23, SC-39, SC-4, SI-3",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -537,6 +566,7 @@
           "ItemId": "ksi-iam-jit",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-JIT: Authorizing Just-in-Time",
+          "SubGroup": "AC-17, AC-2, AC-2.1, AC-2.2, AC-2.3, AC-2.4, AC-2.6, AC-20.1, AC-3, AC-4, AC-5, AC-6, AC-6.1, AC-6.10, AC-6.2, AC-6.5, AC-6.7, AC-6.9, AC-7, AU-9.4, CM-5, CM-7, CM-7.2, CM-7.5, CM-9, IA-4, IA-4.4, IA-7, PS-2, PS-3, PS-4, PS-5, PS-6, PS-9, RA-5.5, SC-2, SC-23, SC-39",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -559,6 +589,7 @@
           "ItemId": "ksi-iam-mfa",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
+          "SubGroup": "AC-2, IA-2, IA-2.1, IA-2.2, IA-2.8, IA-5, IA-8, SC-23",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -581,6 +612,7 @@
           "ItemId": "ksi-iam-snu",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-SNU: Securing Non-User Authentication",
+          "SubGroup": "AC-2, AC-2.2, AC-4, AC-6.5, IA-3, IA-5.2, RA-5.5",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -600,6 +632,7 @@
           "ItemId": "ksi-iam-sus",
           "Section": "KSI-IAM: Identity and Access Management",
           "SubSection": "KSI-IAM-SUS: Responding to Suspicious Activity",
+          "SubGroup": "AC-2, AC-2.1, AC-2.13, AC-2.3, AC-7, PS-4, PS-8",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -618,6 +651,7 @@
           "ItemId": "ksi-inr-aar",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-AAR: Generating After Action Reports",
+          "SubGroup": "IR-3, IR-4, IR-4.1, IR-8",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -648,6 +682,7 @@
           "ItemId": "ksi-inr-rir",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-RIR: Reviewing Incident Response Procedures",
+          "SubGroup": "IR-4, IR-4.1, IR-6, IR-6.1, IR-6.3, IR-7, IR-7.1, IR-8, IR-8.1, SI-4.5",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -669,6 +704,7 @@
           "ItemId": "ksi-inr-rpi",
           "Section": "KSI-INR: Incident Response",
           "SubSection": "KSI-INR-RPI: Reviewing Past Incidents",
+          "SubGroup": "IR-3, IR-4, IR-4.1, IR-5, IR-8",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -688,6 +724,7 @@
           "ItemId": "ksi-mla-ala",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-ALA: Authorizing Log Access",
+          "SubGroup": "SI-11",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -704,6 +741,7 @@
           "ItemId": "ksi-mla-evc",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-EVC: Evaluating Configurations",
+          "SubGroup": "CA-7, CM-2, CM-6, SI-7.7",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -722,6 +760,7 @@
           "ItemId": "ksi-mla-let",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-LET: Logging Event Types",
+          "SubGroup": "AC-17.1, AC-2.4, AC-20.1, AC-6.9, AU-12, AU-2, AU-7.1, SI-4.4, SI-4.5, SI-7.7",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -744,6 +783,7 @@
           "ItemId": "ksi-mla-osm",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-OSM: Operating SIEM Capability",
+          "SubGroup": "AC-17.1, AC-20.1, AU-11, AU-2, AU-3, AU-3.1, AU-4, AU-5, AU-6.1, AU-6.3, AU-7, AU-7.1, AU-8, AU-9, IR-4.1, SI-4.2, SI-4.4, SI-7.7",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -762,6 +802,7 @@
           "ItemId": "ksi-mla-rvl",
           "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
           "SubSection": "KSI-MLA-RVL: Reviewing Logs",
+          "SubGroup": "AC-2.4, AC-6.9, AU-2, AU-6, AU-6.1, SI-4, SI-4.4",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -790,6 +831,7 @@
           "ItemId": "ksi-piy-giv",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-GIV: Generating Inventories",
+          "SubGroup": "CM-12, CM-12.1, CM-2.2, CM-7.5, CM-8, CM-8.1, CP-2.8",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -808,6 +850,7 @@
           "ItemId": "ksi-piy-res",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RES: Reviewing Executive Support",
+          "SubGroup": null,
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -824,6 +867,7 @@
           "ItemId": "ksi-piy-ris",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RIS: Reviewing Investments in Security",
+          "SubGroup": "AC-5, CA-2, CP-2.1, CP-4.1, IR-3.2, PM-3, SA-2, SA-3, SR-2.1",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -849,6 +893,7 @@
           "ItemId": "ksi-piy-rsd",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RSD: Reviewing Security in the SDLC",
+          "SubGroup": "AC-5, AU-3.3, CM-3.4, PL-8, PM-7, SA-3, SA-8, SC-18, SC-4, SI-10, SI-11, SI-16",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -865,6 +910,7 @@
           "ItemId": "ksi-piy-rvd",
           "Section": "KSI-PIY: Policy and Inventory",
           "SubSection": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
+          "SubGroup": "RA-5.11",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -881,6 +927,7 @@
           "ItemId": "ksi-rpl-abo",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-ABO: Aligning Backups with Objectives",
+          "SubGroup": "CM-2.3, CP-10, CP-10.2, CP-6, CP-9, SI-12",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -905,6 +952,7 @@
           "ItemId": "ksi-rpl-arp",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-ARP: Aligning Recovery Plan",
+          "SubGroup": "CP-10, CP-10.2, CP-2, CP-2.1, CP-2.3, CP-4.1, CP-6, CP-6.1, CP-6.3, CP-7, CP-7.1, CP-7.2, CP-7.3, CP-8, CP-8.1, CP-8.2",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -921,6 +969,7 @@
           "ItemId": "ksi-rpl-rro",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-RRO: Reviewing Recovery Objectives",
+          "SubGroup": "CP-10, CP-2.3",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -937,6 +986,7 @@
           "ItemId": "ksi-rpl-trc",
           "Section": "KSI-RPL: Recovery Planning",
           "SubSection": "KSI-RPL-TRC: Testing Recovery Capabilities",
+          "SubGroup": "CP-10, CP-2.1, CP-2.3, CP-4, CP-4.1, CP-6, CP-6.1, CP-9.1, IR-3, IR-3.2",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -953,6 +1003,7 @@
           "ItemId": "ksi-svc-acm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-ACM: Automating Configuration Management",
+          "SubGroup": "AC-2.4, CM-2, CM-2.2, CM-2.3, CM-6, CM-7.1, PL-10, PL-9, SA-5, SI-5, SR-10",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -971,6 +1022,7 @@
           "ItemId": "ksi-svc-asm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-ASM: Automating Secret Management",
+          "SubGroup": "AC-17.2, IA-5.2, IA-5.6, SC-12, SC-17",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -999,6 +1051,7 @@
           "ItemId": "ksi-svc-eis",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-EIS: Evaluating and Improving Security",
+          "SubGroup": "CM-12.1, CM-7.1, MA-2, PL-8, SC-39, SC-7, SI-2.2, SI-4, SR-10",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -1015,6 +1068,7 @@
           "ItemId": "ksi-svc-prr",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-PRR: Preventing Residual Risk",
+          "SubGroup": "SC-4",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -1031,6 +1085,7 @@
           "ItemId": "ksi-svc-rud",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-RUD: Removing Unwanted Data",
+          "SubGroup": "SI-12.3, SI-18.4",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -1047,6 +1102,7 @@
           "ItemId": "ksi-svc-snt",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-SNT: Securing Network Traffic",
+          "SubGroup": "AC-1, AC-17.2, CP-9.8, SC-13, SC-20, SC-21, SC-22, SC-23, SC-8, SC-8.1",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -1073,6 +1129,7 @@
           "ItemId": "ksi-svc-vcm",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-VCM: Validating Communications",
+          "SubGroup": "SC-23, SI-7.1",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -1089,6 +1146,7 @@
           "ItemId": "ksi-svc-vri",
           "Section": "KSI-SVC: Service Configuration",
           "SubSection": "KSI-SVC-VRI: Validating Resource Integrity",
+          "SubGroup": "CM-2.2, CM-8.3, SC-13, SC-23, SI-7, SI-7.1, SR-10",
           "Service": "azure",
           "AssessmentStatus": "Manual",
           "AutomationSource": null
@@ -1105,6 +1163,7 @@
           "ItemId": "ksi-scr-mit",
           "Section": "KSI-SCR: Supply Chain Risk",
           "SubSection": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
+          "SubGroup": "AC-20, CA-7.4, RA-3.1, SA-10, SA-11, SA-15.3, SA-22, SA-9, SC-18, SI-7.1, SR-5, SR-6",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
@@ -1124,6 +1183,7 @@
           "ItemId": "ksi-scr-mon",
           "Section": "KSI-SCR: Supply Chain Risk",
           "SubSection": "KSI-SCR-MON: Monitoring Supply Chain Risk",
+          "SubGroup": "AC-20, CA-3, IR-6.3, PS-7, RA-5, SA-9, SI-5, SR-5, SR-6, SR-8",
           "Service": "azure",
           "AssessmentStatus": "Automated",
           "AutomationSource": "prowler"
