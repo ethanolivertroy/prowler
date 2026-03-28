@@ -1,0 +1,1146 @@
+{
+  "Framework": "FedRAMP-20x-KSI-Moderate",
+  "Name": "FedRAMP 20x Key Security Indicators (KSIs) - Moderate Impact Level FRMR-0.9.42",
+  "Version": "FRMR-0.9.42",
+  "Provider": "M365",
+  "Description": "FedRAMP 20x Key Security Indicators (KSIs) Moderate Impact Level for M365 environments. Generated from the FedRAMP Machine-Readable Documentation (FRMR) version 0.9.42-beta.",
+  "Requirements": [
+    {
+      "Id": "ksi-afr-ads",
+      "Name": "KSI-AFR-ADS: Authorization Data Sharing",
+      "Description": "Determine how authorization data will be shared with all necessary parties in alignment with the FedRAMP Authorization Data Sharing (ADS) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-ads",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-ADS: Authorization Data Sharing",
+          "SubGroup": "AC-3, AC-4, AU-2, AU-3, AU-6, CA-2, IR-4, RA-5, SC-8",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-ccm",
+      "Name": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
+      "Description": "Maintain a plan and process for providing Ongoing Authorization Reports and Quarterly Reviews for all necessary parties in alignment with the FedRAMP Collaborative Continuous Monitoring (CCM) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-ccm",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-CCM: Collaborative Continuous Monitoring",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-fsi",
+      "Name": "KSI-AFR-FSI: FedRAMP Security Inbox",
+      "Description": "Operate a secure inbox to receive critical communication from FedRAMP and other government entities in alignment with FedRAMP Security Inbox (FSI) requirements and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-fsi",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-FSI: FedRAMP Security Inbox",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-icp",
+      "Name": "KSI-AFR-ICP: Incident Communications Procedures",
+      "Description": "Integrate FedRAMP's Incident Communications Procedures (ICP) into incident response procedures and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-icp",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-ICP: Incident Communications Procedures",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-mas",
+      "Name": "KSI-AFR-MAS: Minimum Assessment Scope",
+      "Description": "Apply the FedRAMP Minimum Assessment Scope (MAS) to identify and document the scope of the cloud service offering to be assessed for FedRAMP authorization and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-mas",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-MAS: Minimum Assessment Scope",
+          "SubGroup": "AC-1, AC-21, AT-1, AU-1, CA-1, CM-1, CP-1, CP-2.1, CP-2.8, CP-4.1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PL-2, PL-4, PL-4.1, PS-1, RA-1, RA-9, SA-1, SC-1, SI-1, SR-1, SR-11, SR-2, SR-3",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-pva",
+      "Name": "KSI-AFR-PVA: Persistent Validation and Assessment",
+      "Description": "Persistently validate, assess, and report on the effectiveness and status of security decisions and policies that are implemented within the cloud service offering in alignment with the FedRAMP 20x Persistent Validation and Assessment (PVA) process, and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-pva",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-PVA: Persistent Validation and Assessment",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-scg",
+      "Name": "KSI-AFR-SCG: Secure Configuration Guide",
+      "Description": "Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Secure Configuration Guide (SCG) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-scg",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-SCG: Secure Configuration Guide",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-scn",
+      "Name": "KSI-AFR-SCN: Significant Change Notifications",
+      "Description": "Determine how significant changes will be tracked and how all necessary parties will be notified in alignment with the FedRAMP Significant Change Notifications (SCN) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-scn",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-SCN: Significant Change Notifications",
+          "SubGroup": "AU-5, CA-5, CA-7, CA-7.4, CM-3.4, CM-4, CM-7.1, RA-5, RA-5.2, SA-22, SI-10, SI-11, SI-2, SI-2.2, SI-3, SI-5, SI-7.7",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-ucm",
+      "Name": "KSI-AFR-UCM: Using Cryptographic Modules",
+      "Description": "Ensure that cryptographic modules used to protect potentially sensitive federal customer data are selected and used in alignment with the FedRAMP 20x Using Cryptographic Modules (UCM) guidance and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-ucm",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-UCM: Using Cryptographic Modules",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-afr-vdr",
+      "Name": "KSI-AFR-VDR: Vulnerability Detection and Response",
+      "Description": "Document the vulnerability detection and vulnerability response methodology used within the cloud service offering in alignment with the FedRAMP Vulnerability Detection and Response (VDR) process and persistently address all related requirements and recommendations.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-afr-vdr",
+          "Section": "KSI-AFR: Authorization by FedRAMP",
+          "SubSection": "KSI-AFR-VDR: Vulnerability Detection and Response",
+          "SubGroup": "CA-2, CA-7, CA-7.4, CA-7.6, IR-1, IR-4, IR-4.1, IR-5, IR-5.1, IR-6, IR-6.1, IR-6.2, PM-3, PM-31, PM-5, RA-10, RA-2, RA-2.1, RA-3, RA-3.3, RA-5, RA-5.11, RA-5.2, RA-5.3, RA-5.4, RA-5.5, RA-5.6, RA-5.7, RA-7, RA-9, SI-2, SI-2.1, SI-2.2, SI-2.4, SI-2.5, SI-3, SI-3.1, SI-3.2, SI-4, SI-4.2, SI-4.3, SI-4.7",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-det",
+      "Name": "KSI-CED-DET: Reviewing Development and Engineering Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to development and engineering staff that covers best practices for delivering secure software.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-det",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-DET: Reviewing Development and Engineering Training",
+          "SubGroup": "CP-3, IR-2, PS-6",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rgt",
+      "Name": "KSI-CED-RGT: Reviewing General Training",
+      "Description": "Persistently review the effectiveness of training given to all employees on policies, procedures, and security-related topics.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rgt",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RGT: Reviewing General Training",
+          "SubGroup": "AT-2, AT-2.2, AT-2.3, AT-3.5, AT-4, IR-2.3",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rrt",
+      "Name": "KSI-CED-RRT: Reviewing Response and Recovery Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to staff involved with incident response or disaster recovery.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rrt",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RRT: Reviewing Response and Recovery Training",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-ced-rst",
+      "Name": "KSI-CED-RST: Reviewing Role-Specific Training",
+      "Description": "Persistently review the effectiveness of role-specific training given to employees in high risk roles, including at least roles with privileged access.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-ced-rst",
+          "Section": "KSI-CED: Cybersecurity Education",
+          "SubSection": "KSI-CED-RST: Reviewing Role-Specific Training",
+          "SubGroup": "AT-2, AT-2.3, AT-3, SR-11.1",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cmt-lmc",
+      "Name": "KSI-CMT-LMC: Logging Changes",
+      "Description": "Log and monitor modifications to the cloud service offering.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-lmc",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-LMC: Logging Changes",
+          "SubGroup": "AU-2, CM-3, CM-3.2, CM-4.2, CM-6, CM-8.3, MA-2",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "purview_audit_log_search_enabled",
+        "exchange_organization_mailbox_auditing_enabled",
+        "exchange_user_mailbox_auditing_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-cmt-rmv",
+      "Name": "KSI-CMT-RMV: Redeploying vs Modifying",
+      "Description": "Execute changes to machine-based information resources through redeployment of version controlled immutable resources rather than direct modification wherever reasonable.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-rmv",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-RMV: Redeploying vs Modifying",
+          "SubGroup": "CM-2, CM-3, CM-5, CM-6, CM-7, CM-8.1, SI-3",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cmt-rvp",
+      "Name": "KSI-CMT-RVP: Reviewing Change Procedures",
+      "Description": "Persistently review the effectiveness of documented change management procedures.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-rvp",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-RVP: Reviewing Change Procedures",
+          "SubGroup": "CM-3, CM-3.2, CM-3.4, CM-5, CM-7.1, CM-9",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_admin_consent_workflow_enabled",
+        "exchange_transport_rules_whitelist_disabled"
+      ]
+    },
+    {
+      "Id": "ksi-cmt-vtd",
+      "Name": "KSI-CMT-VTD: Validating Throughout Deployment",
+      "Description": "Automate persistent testing and validation of changes throughout deployment.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cmt-vtd",
+          "Section": "KSI-CMT: Change Management",
+          "SubSection": "KSI-CMT-VTD: Validating Throughout Deployment",
+          "SubGroup": "CM-3, CM-3.2, CM-4.2, SI-2",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-dfp",
+      "Name": "KSI-CNA-DFP: Defining Functionality and Privileges",
+      "Description": "Strictly define the functionality and privileges for infrastructure and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-dfp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-DFP: Defining Functionality and Privileges",
+          "SubGroup": "CM-2, SI-3",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_admin_portals_access_restriction",
+        "entra_conditional_access_policy_device_code_flow_blocked",
+        "entra_conditional_access_policy_app_enforced_restrictions",
+        "entra_conditional_access_policy_approved_client_app_required_for_mobile",
+        "entra_managed_device_required_for_authentication",
+        "entra_all_apps_conditional_access_coverage"
+      ]
+    },
+    {
+      "Id": "ksi-cna-eis",
+      "Name": "KSI-CNA-EIS: Enforcing Intended State",
+      "Description": "Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-eis",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-EIS: Enforcing Intended State",
+          "SubGroup": "CA-2.1, CA-7.1",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-ibp",
+      "Name": "KSI-CNA-IBP: Implementing Best Practices",
+      "Description": "Persistently ensure cloud-native machine-based information resources are implemented based on the host provider's best practices and documented guidance.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-ibp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-IBP: Implementing Best Practices",
+          "SubGroup": "AC-17.3, CM-2, PL-10",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-mat",
+      "Name": "KSI-CNA-MAT: Minimizing Attack Surface",
+      "Description": "Persistently ensure machine-based information resources have a minimal attack surface and that lateral movement is minimized if compromised.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-mat",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-MAT: Minimizing Attack Surface",
+          "SubGroup": "AC-17.3, AC-18.1, AC-18.3, AC-20.1, CA-9, SC-10, SC-7.3, SC-7.4, SC-7.5, SC-7.8, SC-8, SI-10, SI-11, SI-16",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "teams_meeting_anonymous_user_join_disabled",
+        "teams_meeting_anonymous_user_start_disabled",
+        "teams_meeting_chat_anonymous_users_disabled",
+        "teams_external_file_sharing_restricted",
+        "teams_external_users_cannot_start_conversations",
+        "teams_unmanaged_communication_disabled",
+        "teams_meeting_external_chat_disabled",
+        "teams_meeting_external_control_disabled",
+        "teams_meeting_external_lobby_bypass_disabled",
+        "teams_meeting_dial_in_lobby_bypass_disabled",
+        "teams_meeting_presenters_restricted",
+        "teams_meeting_recording_disabled",
+        "teams_email_sending_to_channel_disabled",
+        "exchange_roles_assignment_policy_addins_disabled",
+        "sharepoint_onedrive_sync_restricted_unmanaged_devices"
+      ]
+    },
+    {
+      "Id": "ksi-cna-ofa",
+      "Name": "KSI-CNA-OFA: Optimizing for Availability",
+      "Description": "Appropriately optimize machine-based information resources for high availability and rapid recovery.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-ofa",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-OFA: Optimizing for Availability",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-rnt",
+      "Name": "KSI-CNA-RNT: Restricting Network Traffic",
+      "Description": "Persistently ensure all machine-based information resources are configured to limit inbound and outbound network traffic.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-rnt",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-RNT: Restricting Network Traffic",
+          "SubGroup": "AC-17.3, CA-9, CM-7.1, SC-7.5, SI-8",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "teams_external_domains_restricted",
+        "sharepoint_external_sharing_managed",
+        "sharepoint_external_sharing_restricted",
+        "sharepoint_guest_sharing_restricted",
+        "admincenter_groups_not_public_visibility"
+      ]
+    },
+    {
+      "Id": "ksi-cna-rvp",
+      "Name": "KSI-CNA-RVP: Reviewing Protections",
+      "Description": "Persistently review the effectiveness of protection against denial of service attacks and other unwanted activity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-rvp",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-RVP: Reviewing Protections",
+          "SubGroup": "SC-5, SI-8, SI-8.2",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-cna-uln",
+      "Name": "KSI-CNA-ULN: Using Logical Networking",
+      "Description": "Use logical networking and related capabilities to enforce traffic flow controls.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-cna-uln",
+          "Section": "KSI-CNA: Cloud Native Architecture",
+          "SubSection": "KSI-CNA-ULN: Using Logical Networking",
+          "SubGroup": "AC-12, AC-17.3, CA-9, SC-10, SC-4, SC-7, SC-7.7, SC-8",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-iam-aam",
+      "Name": "KSI-IAM-AAM: Automating Account Management",
+      "Description": "Securely manage the lifecycle and privileges of all accounts, roles, and groups, using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-aam",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-AAM: Automating Account Management",
+          "SubGroup": "AC-2.13, AC-2.2, AC-2.3, AC-6.7, IA-12, IA-12.2, IA-12.3, IA-12.5, IA-4.4",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_policy_restricts_user_consent_for_apps",
+        "entra_thirdparty_integrated_apps_not_allowed",
+        "entra_policy_ensure_default_user_cannot_create_tenants"
+      ]
+    },
+    {
+      "Id": "ksi-iam-apm",
+      "Name": "KSI-IAM-APM: Adopting Passwordless Methods",
+      "Description": "Use secure passwordless methods for user authentication and authorization when feasible, otherwise enforce strong passwords with MFA for authentication.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-apm",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-APM: Adopting Passwordless Methods",
+          "SubGroup": "AC-2, AC-3, IA-2.1, IA-2.2, IA-2.8, IA-5.1, IA-5.2, IA-5.6, IA-6",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_legacy_authentication_blocked",
+        "entra_password_hash_sync_enabled",
+        "entra_seamless_sso_disabled"
+      ]
+    },
+    {
+      "Id": "ksi-iam-elp",
+      "Name": "KSI-IAM-ELP: Ensuring Least Privilege",
+      "Description": "Persistently ensure that identity and access management employs measures to ensure each user or device can only access the resources they need.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-elp",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-ELP: Ensuring Least Privilege",
+          "SubGroup": "AC-12, AC-14, AC-17, AC-17.1, AC-17.2, AC-17.3, AC-2.5, AC-2.6, AC-20, AC-20.1, AC-3, AC-4, AC-6, CM-2.7, CM-9, IA-11, IA-2, IA-3, IA-4, IA-4.4, IA-5.2, IA-5.6, PS-2, PS-3, PS-4, PS-5, PS-6, SC-20, SC-21, SC-22, SC-23, SC-39, SC-4, SI-3",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_admin_users_cloud_only",
+        "admincenter_users_between_two_and_four_global_admins",
+        "admincenter_users_admins_reduced_license_footprint",
+        "entra_policy_guest_invite_only_for_admin_roles",
+        "entra_policy_guest_users_access_restrictions",
+        "entra_dynamic_group_for_guests_created",
+        "entra_emergency_access_exclusion"
+      ]
+    },
+    {
+      "Id": "ksi-iam-jit",
+      "Name": "KSI-IAM-JIT: Authorizing Just-in-Time",
+      "Description": "Use a least-privileged, role and attribute-based, and just-in-time security authorization model for all user and non-user accounts and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-jit",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-JIT: Authorizing Just-in-Time",
+          "SubGroup": "AC-17, AC-2, AC-2.1, AC-2.2, AC-2.3, AC-2.4, AC-2.6, AC-20.1, AC-3, AC-4, AC-5, AC-6, AC-6.1, AC-6.10, AC-6.2, AC-6.5, AC-6.7, AC-6.9, AC-7, AU-9.4, CM-5, CM-7, CM-7.2, CM-7.5, CM-9, IA-4, IA-4.4, IA-7, PS-2, PS-3, PS-4, PS-5, PS-6, PS-9, RA-5.5, SC-2, SC-23, SC-39",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_admin_users_sign_in_frequency_enabled",
+        "entra_intune_enrollment_sign_in_frequency_every_time"
+      ]
+    },
+    {
+      "Id": "ksi-iam-mfa",
+      "Name": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
+      "Description": "Enforce multi-factor authentication (MFA) using methods that are difficult to intercept or impersonate (phishing-resistant MFA) for all user authentication.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-mfa",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-MFA: Enforcing Phishing-Resistant MFA",
+          "SubGroup": "AC-2, IA-2, IA-2.1, IA-2.2, IA-2.8, IA-5, IA-8, SC-23",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_admin_users_mfa_enabled",
+        "entra_users_mfa_enabled",
+        "entra_admin_users_phishing_resistant_mfa_enabled",
+        "entra_users_mfa_capable",
+        "entra_break_glass_account_fido2_security_key_registered",
+        "entra_managed_device_required_for_mfa_registration"
+      ]
+    },
+    {
+      "Id": "ksi-iam-snu",
+      "Name": "KSI-IAM-SNU: Securing Non-User Authentication",
+      "Description": "Enforce appropriately secure authentication methods for non-user accounts and services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-snu",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-SNU: Securing Non-User Authentication",
+          "SubGroup": "AC-2, AC-2.2, AC-4, AC-6.5, IA-3, IA-5.2, RA-5.5",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_app_registration_no_unused_privileged_permissions",
+        "exchange_shared_mailbox_sign_in_disabled",
+        "entra_default_app_management_policy_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-iam-sus",
+      "Name": "KSI-IAM-SUS: Responding to Suspicious Activity",
+      "Description": "Automatically disable or otherwise secure accounts with privileged access in response to suspicious activity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-iam-sus",
+          "Section": "KSI-IAM: Identity and Access Management",
+          "SubSection": "KSI-IAM-SUS: Responding to Suspicious Activity",
+          "SubGroup": "AC-2, AC-2.1, AC-2.13, AC-2.3, AC-7, PS-4, PS-8",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_identity_protection_user_risk_enabled",
+        "entra_identity_protection_sign_in_risk_enabled",
+        "defenderxdr_endpoint_privileged_user_exposed_credentials"
+      ]
+    },
+    {
+      "Id": "ksi-inr-aar",
+      "Name": "KSI-INR-AAR: Generating After Action Reports",
+      "Description": "Generate incident after action reports and persistently incorporate lessons learned.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-aar",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-AAR: Generating After Action Reports",
+          "SubGroup": "IR-3, IR-4, IR-4.1, IR-8",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-inr-rir",
+      "Name": "KSI-INR-RIR: Reviewing Incident Response Procedures",
+      "Description": "Persistently review the effectiveness of documented incident response procedures.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-rir",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-RIR: Reviewing Incident Response Procedures",
+          "SubGroup": "IR-4, IR-4.1, IR-6, IR-6.1, IR-6.3, IR-7, IR-7.1, IR-8, IR-8.1, SI-4.5",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_safe_attachments_policy_enabled",
+        "defender_atp_safe_attachments_and_docs_configured",
+        "defender_safelinks_policy_enabled",
+        "defender_zap_for_teams_enabled",
+        "teams_security_reporting_enabled",
+        "defender_chat_report_policy_configured"
+      ]
+    },
+    {
+      "Id": "ksi-inr-rpi",
+      "Name": "KSI-INR-RPI: Reviewing Past Incidents",
+      "Description": "Persistently review past incidents for patterns or vulnerabilities.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-inr-rpi",
+          "Section": "KSI-INR: Incident Response",
+          "SubSection": "KSI-INR-RPI: Reviewing Past Incidents",
+          "SubGroup": "IR-3, IR-4, IR-4.1, IR-5, IR-8",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-mla-ala",
+      "Name": "KSI-MLA-ALA: Authorizing Log Access",
+      "Description": "Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-ala",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-ALA: Authorizing Log Access",
+          "SubGroup": "SI-11",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_admin_portals_access_restriction"
+      ]
+    },
+    {
+      "Id": "ksi-mla-evc",
+      "Name": "KSI-MLA-EVC: Evaluating Configurations",
+      "Description": "Persistently evaluate and test the configuration of machine-based information resources, especially infrastructure as code.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-evc",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-EVC: Evaluating Configurations",
+          "SubGroup": "CA-7, CM-2, CM-6, SI-7.7",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "defender_antiphishing_policy_configured",
+        "defender_antispam_outbound_policy_configured",
+        "defender_antispam_connection_filter_policy_empty_ip_allowlist",
+        "defender_antispam_connection_filter_policy_safe_list_off",
+        "defender_antispam_policy_inbound_no_allowed_domains",
+        "defender_domain_dkim_enabled",
+        "defender_malware_policy_common_attachments_filter_enabled",
+        "defender_malware_policy_comprehensive_attachments_filter_applied",
+        "defender_malware_policy_notifications_internal_users_malware_enabled",
+        "defenderidentity_health_issues_no_open",
+        "defenderxdr_critical_asset_management_pending_approvals"
+      ]
+    },
+    {
+      "Id": "ksi-mla-let",
+      "Name": "KSI-MLA-LET: Logging Event Types",
+      "Description": "Maintain a list of information resources and event types that will be logged, monitored, and audited, then do so.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-let",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-LET: Logging Event Types",
+          "SubGroup": "AC-17.1, AC-2.4, AC-20.1, AC-6.9, AU-12, AU-2, AU-7.1, SI-4.4, SI-4.5, SI-7.7",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-mla-osm",
+      "Name": "KSI-MLA-OSM: Operating SIEM Capability",
+      "Description": "Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistent logging of events, activities, and changes.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-osm",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-OSM: Operating SIEM Capability",
+          "SubGroup": "AC-17.1, AC-20.1, AU-11, AU-2, AU-3, AU-3.1, AU-4, AU-5, AU-6.1, AU-6.3, AU-7, AU-7.1, AU-8, AU-9, IR-4.1, SI-4.2, SI-4.4, SI-7.7",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "purview_audit_log_search_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-mla-rvl",
+      "Name": "KSI-MLA-RVL: Reviewing Logs",
+      "Description": "Persistently review and audit logs.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-mla-rvl",
+          "Section": "KSI-MLA: Monitoring, Logging, and Auditing",
+          "SubSection": "KSI-MLA-RVL: Reviewing Logs",
+          "SubGroup": "AC-2.4, AC-6.9, AU-2, AU-6, AU-6.1, SI-4, SI-4.4",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "exchange_organization_mailbox_auditing_enabled",
+        "exchange_user_mailbox_auditing_enabled",
+        "exchange_mailbox_audit_bypass_disabled"
+      ]
+    },
+    {
+      "Id": "ksi-piy-giv",
+      "Name": "KSI-PIY-GIV: Generating Inventories",
+      "Description": "Use authoritative sources to automatically generate real-time inventories of all information resources when needed.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-giv",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-GIV: Generating Inventories",
+          "SubGroup": "CM-12, CM-12.1, CM-2.2, CM-7.5, CM-8, CM-8.1, CP-2.8",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_policy_ensure_default_user_cannot_create_tenants"
+      ]
+    },
+    {
+      "Id": "ksi-piy-res",
+      "Name": "KSI-PIY-RES: Reviewing Executive Support",
+      "Description": "Persistently review executive support for achieving the organization's security objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-res",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RES: Reviewing Executive Support",
+          "SubGroup": null,
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-piy-ris",
+      "Name": "KSI-PIY-RIS: Reviewing Investments in Security",
+      "Description": "Persistently review the effectiveness of the organization's investments in achieving security objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-ris",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RIS: Reviewing Investments in Security",
+          "SubGroup": "AC-5, CA-2, CP-2.1, CP-4.1, IR-3.2, PM-3, SA-2, SA-3, SR-2.1",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-piy-rsd",
+      "Name": "KSI-PIY-RSD: Reviewing Security in the SDLC",
+      "Description": "Persistently review the effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-rsd",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RSD: Reviewing Security in the SDLC",
+          "SubGroup": "AC-5, AU-3.3, CM-3.4, PL-8, PM-7, SA-3, SA-8, SC-18, SC-4, SI-10, SI-11, SI-16",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-piy-rvd",
+      "Name": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
+      "Description": "Persistently review the effectiveness of the provider's vulnerability disclosure program.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-piy-rvd",
+          "Section": "KSI-PIY: Policy and Inventory",
+          "SubSection": "KSI-PIY-RVD: Reviewing Vulnerability Disclosures",
+          "SubGroup": "RA-5.11",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "exchange_organization_mailtips_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-rpl-abo",
+      "Name": "KSI-RPL-ABO: Aligning Backups with Objectives",
+      "Description": "Persistently review the alignment of machine-based information resource backups with defined recovery objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-abo",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-ABO: Aligning Backups with Objectives",
+          "SubGroup": "CM-2.3, CP-10, CP-10.2, CP-6, CP-9, SI-12",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-arp",
+      "Name": "KSI-RPL-ARP: Aligning Recovery Plan",
+      "Description": "Persistently review the alignment of recovery plans with defined recovery objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-arp",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-ARP: Aligning Recovery Plan",
+          "SubGroup": "CP-10, CP-10.2, CP-2, CP-2.1, CP-2.3, CP-4.1, CP-6, CP-6.1, CP-6.3, CP-7, CP-7.1, CP-7.2, CP-7.3, CP-8, CP-8.1, CP-8.2",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-rro",
+      "Name": "KSI-RPL-RRO: Reviewing Recovery Objectives",
+      "Description": "Persistently review desired Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO).",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-rro",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-RRO: Reviewing Recovery Objectives",
+          "SubGroup": "CP-10, CP-2.3",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-rpl-trc",
+      "Name": "KSI-RPL-TRC: Testing Recovery Capabilities",
+      "Description": "Persistently test the capability to recover from incidents and contingencies, including alignment with defined recovery objectives.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-rpl-trc",
+          "Section": "KSI-RPL: Recovery Planning",
+          "SubSection": "KSI-RPL-TRC: Testing Recovery Capabilities",
+          "SubGroup": "CP-10, CP-2.1, CP-2.3, CP-4, CP-4.1, CP-6, CP-6.1, CP-9.1, IR-3, IR-3.2",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-acm",
+      "Name": "KSI-SVC-ACM: Automating Configuration Management",
+      "Description": "Manage configuration of machine-based information resources using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-acm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-ACM: Automating Configuration Management",
+          "SubGroup": "AC-2.4, CM-2, CM-2.2, CM-2.3, CM-6, CM-7.1, PL-10, PL-9, SA-5, SI-5, SR-10",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-asm",
+      "Name": "KSI-SVC-ASM: Automating Secret Management",
+      "Description": "Automate management, protection, and regular rotation of digital keys, certificates, and other secrets.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-asm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-ASM: Automating Secret Management",
+          "SubGroup": "AC-17.2, IA-5.2, IA-5.6, SC-12, SC-17",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "admincenter_settings_password_never_expire"
+      ]
+    },
+    {
+      "Id": "ksi-svc-eis",
+      "Name": "KSI-SVC-EIS: Evaluating and Improving Security",
+      "Description": "Implement improvements based on persistent evaluation of information resources for opportunities to improve security.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-eis",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-EIS: Evaluating and Improving Security",
+          "SubGroup": "CM-12.1, CM-7.1, MA-2, PL-8, SC-39, SC-7, SI-2.2, SI-4, SR-10",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-prr",
+      "Name": "KSI-SVC-PRR: Preventing Residual Risk",
+      "Description": "Persistently review plans, procedures, and the state of information resources after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-prr",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-PRR: Preventing Residual Risk",
+          "SubGroup": "SC-4",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "admincenter_external_calendar_sharing_disabled",
+        "admincenter_organization_customer_lockbox_enabled",
+        "exchange_mailbox_policy_additional_storage_restricted",
+        "exchange_transport_rules_mail_forwarding_disabled",
+        "defender_antispam_outbound_policy_forwarding_disabled"
+      ]
+    },
+    {
+      "Id": "ksi-svc-rud",
+      "Name": "KSI-SVC-RUD: Removing Unwanted Data",
+      "Description": "Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-rud",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-RUD: Removing Unwanted Data",
+          "SubGroup": "SI-12.3, SI-18.4",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-snt",
+      "Name": "KSI-SVC-SNT: Securing Network Traffic",
+      "Description": "Encrypt or otherwise secure network traffic.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-snt",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-SNT: Securing Network Traffic",
+          "SubGroup": "AC-1, AC-17.2, CP-9.8, SC-13, SC-20, SC-21, SC-22, SC-23, SC-8, SC-8.1",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "exchange_organization_modern_authentication_enabled",
+        "sharepoint_modern_authentication_required",
+        "exchange_transport_config_smtp_auth_disabled",
+        "exchange_external_email_tagging_enabled"
+      ]
+    },
+    {
+      "Id": "ksi-svc-vcm",
+      "Name": "KSI-SVC-VCM: Validating Communications",
+      "Description": "Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-vcm",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-VCM: Validating Communications",
+          "SubGroup": "SC-23, SI-7.1",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-svc-vri",
+      "Name": "KSI-SVC-VRI: Validating Resource Integrity",
+      "Description": "Use cryptographic methods to validate the integrity of machine-based information resources.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-svc-vri",
+          "Section": "KSI-SVC: Service Configuration",
+          "SubSection": "KSI-SVC-VRI: Validating Resource Integrity",
+          "SubGroup": "CM-2.2, CM-8.3, SC-13, SC-23, SI-7, SI-7.1, SR-10",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-scr-mit",
+      "Name": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
+      "Description": "Persistently identify, review, and mitigate potential supply chain risks.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-scr-mit",
+          "Section": "KSI-SCR: Supply Chain Risk",
+          "SubSection": "KSI-SCR-MIT: Mitigating Supply Chain Risk",
+          "SubGroup": "AC-20, CA-7.4, RA-3.1, SA-10, SA-11, SA-15.3, SA-22, SA-9, SC-18, SI-7.1, SR-5, SR-6",
+          "Service": "m365",
+          "AssessmentStatus": "Manual",
+          "AutomationSource": null
+        }
+      ],
+      "Checks": []
+    },
+    {
+      "Id": "ksi-scr-mon",
+      "Name": "KSI-SCR-MON: Monitoring Supply Chain Risk",
+      "Description": "Automatically monitor third party software information resources for upstream vulnerabilities using mechanisms that may include contractual notification requirements or active monitoring services.",
+      "Attributes": [
+        {
+          "ItemId": "ksi-scr-mon",
+          "Section": "KSI-SCR: Supply Chain Risk",
+          "SubSection": "KSI-SCR-MON: Monitoring Supply Chain Risk",
+          "SubGroup": "AC-20, CA-3, IR-6.3, PS-7, RA-5, SA-9, SI-5, SR-5, SR-6, SR-8",
+          "Service": "m365",
+          "AssessmentStatus": "Automated",
+          "AutomationSource": "prowler"
+        }
+      ],
+      "Checks": [
+        "entra_thirdparty_integrated_apps_not_allowed",
+        "entra_app_registration_no_unused_privileged_permissions"
+      ]
+    }
+  ]
+}
